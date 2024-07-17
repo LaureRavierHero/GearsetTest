@@ -1,0 +1,30 @@
+<template>
+    <!-- <div class="slds-tabs_card slds-tabs_default"> -->
+        <template for:each={flatPillData} for:item="currentPillData" for:index="index">
+            <lightning-pill
+                key={currentPillData.fieldIndex}
+                label={currentPillData.fieldLabel}
+                name={currentPillData.fieldName}
+                data-index={index}
+                data-value={currentPillData.fieldValue}
+                onremove={handleRemovePill}
+            ></lightning-pill>
+        </template>
+        <div class="slds-grid slds-gutters">
+            <template for:each={flatFilterData} for:item="currentFilterData">
+                <c-combo-box
+                    display-type={currentFilterData.displayType}
+                    key={currentFilterData.fieldIndex}
+                    name={currentFilterData.fieldName}
+                    label={currentFilterData.fieldLabel}
+                    options={currentFilterData.fieldOptions}
+                    multiselect={currentFilterData.multiselectFilter}
+                    onitemselected={handleSelect}
+                    oncomboboxopened={handleComboBoxOpened}
+                    class="slds-p-vertical_x-small slds-p-horizontal_medium"
+                ></c-combo-box>
+            </template>
+            <lightning-button variant="neutral" label="Reset" onclick={resetAll} class="slds-p-top_x-large"></lightning-button>
+        </div>
+    <!-- </div> -->
+</template>

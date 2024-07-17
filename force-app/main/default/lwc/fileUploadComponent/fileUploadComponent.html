@@ -1,0 +1,29 @@
+<template>
+    <lightning-file-upload
+        label={label}
+        name="fileUploader"
+        accept={acceptedFormats}
+        onuploadfinished={handleUploadFinished}
+        multiple={multiple}
+        required={required}
+    >
+    </lightning-file-upload>
+    <template for:each={filesToAdd} for:item="file" for:index="index">
+        <div key={file.name}>
+            <lightning-button
+                variant="base"
+                label={file.name}
+                data-document-id={file.documentId}
+                onclick={handleFilePreview}
+            ></lightning-button>
+            <lightning-button-icon
+                label="Remove file"
+                variant="bare"
+                icon-name="action:close"
+                onclick={handleRemoveFile}
+                class="slds-m-left_xx-small"
+                data-index={index}
+            ></lightning-button-icon>
+        </div>
+    </template>
+</template>

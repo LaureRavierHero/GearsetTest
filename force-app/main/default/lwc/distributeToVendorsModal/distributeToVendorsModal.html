@@ -1,0 +1,84 @@
+<template>
+    <div class="slds-notify slds-notify_alert slds-alert_warning minimal_alert" role="alert" lwc:if={alertVisible}>
+        <span class="slds-assistive-text">warning</span>
+        
+        <span class="slds-icon_container slds-icon-utility-warning slds-m-right_x-small" title="Description of icon when needed">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+        </span>
+
+        <h4>{labels.noCategoriesSelected}</h4>
+
+        <div class="slds-notify__close">
+            <button class="slds-button slds-button_icon slds-button_icon-small" title="Close" onclick={closeAlert}>
+                <i class="fa-solid fa-xmark"></i>
+                <span class="slds-assistive-text">Close</span>
+            </button>
+        </div>
+    </div>
+	<!-- <lightning-modal-header label={label}></lightning-modal-header> -->
+    
+	<lightning-modal-body>
+        <template lwc:if={loading}>
+            <lightning-spinner variant="brand" size="large"> </lightning-spinner>
+        </template>
+        <template lwc:else>
+            <h3 class="slds-text-heading_small slds-p-top_medium">{labels.matchingVendors}</h3>
+            <div class="slds-p-top_small">
+                <template lwc:if={matchingVendorsVisible}>
+                    <template for:each={matchingVendors} for:item="vendor">
+                        <div key={vendor.Id}>
+                            <div class="slds-form-element">
+                                <div class="slds-form-element__control">
+                                    <div class="slds-checkbox">
+                                        <input type="checkbox" id={vendor.Id} value={vendor.Id} checked={vendor.Checked} onchange={handleCheckboxChange} />
+                                        <label class="slds-checkbox__label" for={vendor.Id}>
+                                            <span class="slds-checkbox_faux"></span>
+                                            <span class="slds-form-element__label">{vendor.Name}</span>
+                                        </label>
+                                        
+                                        <template lwc:if={vendor.Distributed}><span style="color: rgb(108 117 125); font-style: italic; font-size: 13px; vertical-align: middle;">{labels.recentlyDistributed} - </span></template>
+                                        <template lwc:else></template>
+                                        
+                                        <small class="categories">({vendor.Categories})</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </template>
+                
+                <template lwc:else>
+                    {labels.noMatchingVendors}
+                </template>
+            </div>
+
+            <template lwc:if={remainingVendorsVisible}>
+                <h3 class="slds-text-heading_small slds-p-top_medium">{labels.remainingVendors}</h3>
+                <div class="slds-p-top_small">
+                    <template for:each={remainingVendors} for:item="vendor">
+                        <div key={vendor.Id}>
+                            <div class="slds-form-element">
+                                <div class="slds-form-element__control">
+                                    <div class="slds-checkbox">
+                                        <input type="checkbox" id={vendor.Id} value={vendor.Id} checked={vendor.Checked} onchange={handleCheckboxChange} />
+                                        <label class="slds-checkbox__label" for={vendor.Id}>
+                                            <span class="slds-checkbox_faux"></span>
+                                            <span class="slds-form-element__label">{vendor.Name}</span>
+                                        </label>
+                                        
+                                        <template lwc:if={vendor.Distributed}><span style="color: rgb(108 117 125); font-style: italic; font-size: 13px; vertical-align: middle;">{labels.recentlyDistributed}</span></template>
+                                        <template lwc:else></template>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </template>
+        </template>
+    </lightning-modal-body>
+    <lightning-modal-footer>
+        <lightning-button label="Cancel" onclick={handleCancel} class="slds-m-right_x-small"></lightning-button>
+        <lightning-button variant="brand" label={labels.sendToVendors} title="Primary action" onclick={handleSubmit} disabled={disabled}></lightning-button>
+    </lightning-modal-footer>
+</template>

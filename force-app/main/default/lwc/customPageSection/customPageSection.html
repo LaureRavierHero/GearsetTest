@@ -1,0 +1,22 @@
+<template>
+	<div class="column slds-size_1-of-1 slds-medium-size_12-of-12 slds-large-size_12-of-12 region-main">
+		<div class="field-section2 slds-card slds-theme_default">
+			<div class="slds-card__body slds-card__body_inner">
+				<div lwc:ref="outerContainer" class="section-layout-container slds-section slds-is-open">
+					<h3 class="label slds-section__title slds-truncate slds-p-around_xx-small slds-theme_shade">
+						<button class="slds-button slds-section__title-action" onclick={handleClick} expanded={visible}>
+							<lightning-icon 
+							class="slds-section__title-action-icon slds-button__icon slds-button__icon_left slds-icon-utility-switch slds-icon_container"
+							icon-name="utility:switch" size="x-small">
+							</lightning-icon>
+							<span class="slds-truncate" title={title} >{title}</span>
+						</button>
+					</h3>
+					<div lwc:ref="body">
+						<slot name="body"></slot>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>

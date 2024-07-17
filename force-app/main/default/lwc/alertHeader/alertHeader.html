@@ -1,0 +1,18 @@
+<template>
+    <div class="slds-notify slds-notify_alert slds-alert_warning minimal_alert" role="alert">
+		<span class="slds-assistive-text">warning</span>
+		
+		<span class="slds-icon_container slds-icon-utility-warning slds-m-right_x-small" title="Description of icon when needed">
+			<i class="fa-solid fa-triangle-exclamation"></i>
+		</span>
+
+		<h4>{text}</h4>
+
+		<div class="slds-notify__close">
+			<button class="slds-button slds-button_icon slds-button_icon-small" title="Close" onclick={closeAlert}>
+				<i class="fa-solid fa-xmark"></i>
+				<span class="slds-assistive-text">Close</span>
+			</button>
+		</div>
+	</div>
+</template>

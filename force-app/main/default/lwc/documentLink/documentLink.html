@@ -1,0 +1,12 @@
+<template>
+	<div>
+		<template lwc:if={documentId}>
+			<lightning-button-icon
+				icon-name={iconName}
+				variant={iconVariant}
+				title={title}
+				onclick={handleClick}
+			></lightning-button-icon>
+		</template>
+	</div>
+</template>

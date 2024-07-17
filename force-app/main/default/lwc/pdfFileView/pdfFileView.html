@@ -1,0 +1,25 @@
+<!-- <template>
+    <div class="slds-m-top_small slds-m-bottom_medium">
+		<lightning-button label="View document" title="View document" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+	</div>
+</template> -->
+
+<!-- <template>
+    <lightning-button label="Publish from LWC" onclick={publishMessageFromLWC}></lightning-button>
+</template> -->
+
+<template>
+    <lightning-modal-header label={label}></lightning-modal-header>
+    <lightning-modal-body style="overflow-y: hidden">
+		<template if:true={fileId}>
+			<embed class="pdf-frame" src={fileURL}>
+			<!-- <iframe src={fileURL} frameborder="0"></iframe> -->
+		</template>
+		<template if:false={fileId}>
+			Please enter a valid PDF File ID.
+		</template>
+	</lightning-modal-body>
+    <lightning-modal-footer>
+        <lightning-button label="OK" onclick={handleOkay}></lightning-button>
+    </lightning-modal-footer>
+</template>

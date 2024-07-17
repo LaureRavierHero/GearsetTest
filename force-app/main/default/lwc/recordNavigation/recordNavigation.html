@@ -1,0 +1,27 @@
+<template>
+    <template lwc:if={recordId}>
+        <template lwc:if={_labelAndIconVisible}>
+            <lightning-button
+                variant="base"
+                label={label}
+                title={label}
+                onclick={navigateToRecordView}
+                icon-name={iconName}
+                class="slds-p-around_xxx-small">
+            </lightning-button>
+        </template>
+        <template lwc:elseif={_iconVisible}>
+            <lightning-button-icon 
+                icon-name={iconName}
+                variant="bare" 
+                alternative-text={label}
+                class="slds-m-left_xx-small" 
+                onclick={navigateToRecordView}
+            >
+            </lightning-button-icon>
+        </template>
+        <template lwc:elseif={_labelVisible}>
+            <a onclick={navigateToRecordView}>{label}</a>
+        </template>
+    </template>
+</template>

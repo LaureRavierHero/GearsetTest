@@ -1,0 +1,104 @@
+<template>
+    <div>
+        <article class="slds-card">
+            <div class="slds-card__header slds-grid">
+              <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__figure">
+                    <lightning-icon icon-name="standard:file" size="small"></lightning-icon>
+                </div>
+                <div class="slds-media__body">
+                  <h2 class="slds-card__header-title">
+                    <a href="#" class="slds-truncate" title="Urenregistratie">
+                      <span>{labels.cardTitle}</span>
+                    </a>
+                  </h2>
+                </div>
+                <!--
+                    For when we want header buttons
+                    <div class="slds-no-flex">
+                        <button class="slds-button slds-button_neutral">New</button>
+                    </div>  
+                -->
+    
+              </header>
+            </div>
+
+            
+            <div class="slds-card__body slds-card__body_inner">
+                <div class="slds-show_large slds-m-vertical_x-small slds-grid slds-wrap slds-gutters">
+                    <div class="slds-col slds-size_3-of-12 slds-text-heading_small" style="font-weight:bold;">{labels.dossierItem}</div>
+                    <div class="slds-col slds-size_4-of-12 slds-text-heading_small" style="font-weight:bold;">{labels.upload}</div>
+					<div class="slds-col slds-size_3-of-12 slds-text-heading_small" style="font-weight:bold;">{labels.deadline}</div>
+					<div class="slds-col slds-size_2-of-12 slds-text-heading_small" style="font-weight:bold;">{labels.status}</div>
+                </div>
+            
+
+                <template lwc:if={loading}>
+                    <lightning-spinner variant="brand" size="large"> </lightning-spinner>
+                </template>
+                <template lwc:if={dossierTasks}>
+                    <!-- <template for:each={dossierTasks.data} for:item="task">
+                        <c-dossier-task-item key={task.Number__c} id={task.Number__c} label={task.Name} deadline={task.Deadline_date__c} status={task.Status_task__c}>
+                        </c-dossier-task-item>
+                    </template> -->
+
+
+                    <template for:each={dossierTasks} for:item="task">
+                        <div key={task.Business_Central_id} class="dossier-task-entry">
+							<div class="slds-grid slds-gutters slds-wrap slds-m-bottom_x-small">
+								<div class="slds-col slds-size_1-of-1 slds-small-size_1-of-2 slds-medium-size_1-of-2 slds-large-size_3-of-12 slds-m-top_xx-small">
+									<div class="slds-form-element">
+										<div class="slds-form-element__control" style="font-weight:bold;">
+											{task.Name}
+										</div>
+									</div>
+								</div>
+                                <div class="slds-col slds-size_1-of-1 slds-small-size_1-of-2 slds-medium-size_1-of-2 slds-large-size_5-of-12">
+                                    <div class="slds-form-element">
+										<label class="slds-form-element__label" for="unique-id-of-input">{labels.upload}</label>
+										<div class="slds-form-element__control">
+											<lightning-input
+												variant="label-hidden"
+												type="file"
+												accept=".pdf"
+												onchange={handleFileUpload}
+												multiple
+												data-index={task.Business_Central_id}
+                                                disabled={task.Disabled}
+												>
+                                    		</lightning-input>
+										</div>
+									</div>
+									
+                                </div>
+                                <div class="slds-col slds-size_1-of-2 slds-small-size_1-of-2 slds-medium-size_1-of-2 slds-large-size_2-of-12">
+									<div class="slds-form-element">
+										<label class="slds-form-element__label" for="unique-id-of-input">{labels.deadline}</label>
+										<div class="slds-form-element__control">
+											<lightning-formatted-date-time
+											value={task.Deadline_date}
+											year="numeric"
+											month="numeric"
+											day="numeric"
+											>
+											</lightning-formatted-date-time>
+										</div>
+									</div>
+                                </div>
+                                <div class="slds-col slds-size_1-of-2 slds-small-size_1-of-2 slds-medium-size_1-of-2 slds-large-size_2-of-12">
+									<div class="slds-form-element">
+										<label class="slds-form-element__label" for="unique-id-of-input">{labels.status}</label>
+										<div class="slds-form-element__control">
+											{task.Status_task}
+										</div>
+									</div>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </template>
+                <template lwc:elseif={error}>{error}</template>
+            </div>
+        </article>
+    </div>
+</template>

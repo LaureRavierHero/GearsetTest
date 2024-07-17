@@ -1,0 +1,40 @@
+.slds-button_brand,
+.slds-button_brand:hover,
+.slds-button_brand:focus,
+.slds-button--brand,
+.slds-button--brand:hover,
+.slds-button--brand:focus,
+.slds-popover_tooltip .slds-popover__body,
+.slds-path__nav .slds-is-active .slds-path__link {
+    color: #fff;
+}
+
+.comm-navigation {
+    font-size: 20px;
+}
+
+.themeProfileMenu {
+	font-family: Exo;
+	font-size: 20px; 
+}
+
+.communityLogo {
+    background-color: rgb(255,255,255); /* Adjust color and opacity as needed */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    padding: 20px; /* Optional: Adds padding */
+}
+
+@media only screen and (min-width: 48em) {
+	.forceCommunityThemeNav.emberInnerHeader .mainNavItem .linkBtn.comm-navigation__top-level-item-link--active {
+		color: #ffffff !important;
+    }
+}
+
+.forceCommunityTabLayout .slds-tabs_default__nav .slds-tabs_default__item {
+	letter-spacing: 0 !important;
+}
+
+.forceCommunityTabLayout .slds-tabs_default__nav .slds-tabs_default__item:not(:first-child) {
+    margin-left: 0 !important;
+}
+:root { --dxp-c-section-columns-max-width: 1440px; }

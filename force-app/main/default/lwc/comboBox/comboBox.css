@@ -1,0 +1,49 @@
+.ms-dropdown{
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: visible;
+}
+.ms-clear-icon{
+    position: absolute;
+}
+.ms-refresh-icon{
+    position: absolute;
+}
+
+.multi-select-combobox__listbox {
+    z-index: 99;
+}
+.ms-input{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(217, 219, 221);
+    border-radius: .25rem;
+    width: 100%;
+    transition: border .1s linear,background-color .1s linear;
+    display: inline-block;
+    padding: 0 1rem 0 .75rem;
+    line-height: 1.875rem;
+    min-height: calc(1.875rem + (1px * 2));
+}
+.ms-filter-input{
+    margin: 0px 5%;
+    width: 50%;
+    height: 30px;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: thin;
+    border-color: darkgray;
+    padding: 2px 5px;
+}
+/* .ms-picklist-dropdown {
+	width: 100%;
+}
+.ms-dropdown-list {
+	width: 100%;
+}
+.ms-dropdown-items {
+	width: 100%;
+} */
+
+.multi-select-combobox__listbox {
+	width: 100%;
+  }

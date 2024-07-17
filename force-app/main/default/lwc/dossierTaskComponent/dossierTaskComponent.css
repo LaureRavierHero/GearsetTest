@@ -1,0 +1,15 @@
+@media (min-width: 1024px) {
+    label.slds-form-element__label{
+        display : none; 
+    }
+}
+
+@media (max-width: 1024px) {
+    .dossier-task-entry:last-child{
+        border-bottom: none;
+    }
+    
+    .dossier-task-entry{
+        border-bottom:1px solid rgb(201, 201, 201);
+    }
+}

@@ -1,0 +1,296 @@
+<template>
+	<article class="slds-card">
+		<div class="slds-card__header slds-grid">
+			<header class="slds-media slds-media_center slds-has-flexi-truncate">
+				<div class="slds-media__figure">
+					<lightning-icon icon-name="standard:timesheet" size="small"></lightning-icon>
+				</div>
+
+				<div class="slds-media__body">
+					<h2 class="slds-card__header-title">
+						<a href="#" class="slds-truncate" title="Urenregistratie">
+							<span>{labels.timeRegistration}</span>
+						</a>
+					</h2>
+				</div>
+
+				<template lwc:if={locked}>
+					<!-- <template lwc:if={reopenPossible}>
+						<div class="slds-no-flex">
+							<lightning-button
+								onclick={reopen}
+								aria-haspopup="dialog"
+								label={labels.reopenTimesheet}
+								class="expense-button"
+								variant="brand"
+							>
+							</lightning-button>
+						</div>
+					</template> -->
+				</template>
+
+				<template lwc:else>
+					<!-- For when we want header buttons -->
+					<div class="slds-no-flex">
+						<lightning-button
+							onclick={openExpenseModal}
+							aria-haspopup="dialog"
+							label={labels.newExpense}
+							class="expense-button"
+						></lightning-button>
+
+						<template lwc:if={exportPossible}>
+							<lightning-button
+								onclick={generatePDF}
+								aria-haspopup="dialog"
+								label={labels.exportToPDF}
+								class="export-button"
+							></lightning-button>
+						</template>
+					</div>
+					
+					<!-- <div class="slds-no-flex">
+						<lightning-button
+							onclick={submitForApproval}
+							aria-haspopup="dialog"
+							label={labels.submitTimesheet}
+							class="expense-button"
+							variant="brand"
+						>
+						</lightning-button>
+					</div> -->
+				</template>
+			</header>
+		</div>
+
+		<div class="slds-card__body slds-card__body_inner">
+			<div class="slds-show_medium slds-m-vertical_xx-small slds-grid slds-wrap slds-gutters">
+				<div class="slds-col slds-medium-size_3-of-12 slds-large-size_2-of-12">{labels.date}</div>
+
+				<div class="slds-col slds-medium-size_9-of-12 slds-large-size_10-of-12">
+					<div class="slds-grid slds-gutters slds-wrap">
+						<div class="slds-col slds-medium-size_2-of-12 slds-large-size_1-of-12">{labels.hours}</div>
+						<div class="slds-col slds-medium-size_2-of-12 slds-large-size_1-of-12">{labels.minutes}</div>
+						<div class="slds-col slds-medium-size_3-of-12 slds-large-size_4-of-12">{labels.ratePercentage}</div>
+						<div class="slds-col slds-medium-size_5-of-12 slds-large-size_6-of-12">{labels.comment}</div>
+					</div>
+				</div>
+			</div>
+
+			<template lwc:if={entries}>
+				<div class="timesheet-table">
+					<template for:each={entries} for:item="day">
+						<div key={day.day} class="row-container" data-day-type={day.typeOfDay}>
+							<div class="slds-grid slds-gutters slds-wrap">
+								<div class="slds-col slds-size_1-of-1 slds-medium-size_3-of-12 slds-large-size_2-of-12 slds-m-top_xx-small">
+									<div class="date">
+										<lightning-formatted-date-time value={day.day} month="long" day="2-digit" weekday="long"></lightning-formatted-date-time>
+										
+										<template lwc:if={locked}></template>
+										<template lwc:else>
+											<i class="fa-solid fa-plus add-row-button" data-day={day.day} onclick={addRow}></i>
+										</template>
+
+										<!-- data-index={day.day}
+										data-fieldname="Travel_expenses__c"
+										data-day={day.day} -->
+
+										<template lwc:if={travelCostEnabled}>
+											<lightning-input
+												type="toggle"
+												checked={day.travelExpenses}
+												label={labels.travelExpenses}
+												data-day={day.day}
+												onchange={handleTravelExpenseChange}
+												message-toggle-active=""
+												message-toggle-inactive=""
+												class="travel-cost"
+												disabled={locked}
+											></lightning-input>
+										</template>
+									</div>
+								</div>
+
+								<div class="slds-col slds-size_1-of-1 slds-medium-size_9-of-12 slds-large-size_10-of-12 entry-container-wrapper">
+									<template iterator:tse={day.timelogs}>
+										<div key={tse.value.Id} class="slds-grid slds-gutters slds-wrap entry-container">
+											<!-- Open fields -->
+											<div class="slds-col slds-size_1-of-1 slds-medium-size_2-of-12 slds-large-size_1-of-12">
+												<lightning-input
+													data-index={tse.index}
+													data-recordid={tse.value.Id}
+													data-fieldname="Hours__c"
+													data-day={day.day}
+													type="number"
+													value={tse.value.Hours__c}
+													label={labels.hours}
+													min="0"
+													max="23"
+													step="1"
+													placeholder={labels.hours}
+													onchange={handleChange}
+													data-recordtype="timelogs"
+													class="hide-label"
+													disabled={locked}
+												></lightning-input>
+											</div>
+
+											<div class="slds-col slds-size_1-of-1 slds-medium-size_2-of-12 slds-large-size_1-of-12">
+												<lightning-input
+													data-index={tse.index}
+													data-recordid={tse.value.Id}
+													data-fieldname="Minutes__c"
+													data-day={day.day}
+													type="number"
+													value={tse.value.Minutes__c}
+													onchange={handleChange}
+													data-recordtype="timelogs"
+													label={labels.minutes}
+													min="0"
+													max="59"
+													step="1"
+													placeholder={labels.minutes}
+													class="hide-label"
+													disabled={locked}
+												></lightning-input>
+											</div>
+
+											<div class="slds-col slds-size_1-of-1 slds-medium-size_3-of-12 slds-large-size_4-of-12">
+												<lightning-combobox
+													data-index={tse.index}
+													data-recordid={tse.value.Id}
+													data-fieldname="Rate_percentage__c"
+													data-day={day.day}
+													value={tse.value.Rate_percentage__c}
+													label={labels.ratePercentage}
+													placeholder={labels.selectAnOption}
+													options={ratePercentageOptions}
+													onchange={handleChange}
+													data-recordtype="timelogs"
+													class="hide-label"
+													disabled={locked}
+												></lightning-combobox>
+											</div>
+
+											<div class="slds-col slds-size_1-of-1 slds-medium-size_5-of-12 slds-large-size_6-of-12">
+												<lightning-input
+													lwc:if={tse.first}
+													data-index={tse.index}
+													data-recordid={tse.value.Id}
+													data-fieldname="Comment__c"
+													data-day={day.day}
+													value={tse.value.Comment__c}
+													type="text"
+													label={labels.comment}
+													maxlength="255"
+													placeholder={labels.comment}
+													onchange={handleChange}
+													data-recordtype="timelogs"
+													class="comment-small hide-label"
+													disabled={locked}
+												></lightning-input>
+
+												<lightning-input
+													lwc:else
+													data-index={tse.index}
+													data-recordid={tse.value.Id}
+													data-fieldname="Comment__c"
+													data-day={day.day}
+													value={tse.value.Comment__c}
+													type="text"
+													label={labels.comment}
+													maxlength="255"
+													placeholder={labels.comment}
+													onchange={handleChange}
+													data-recordtype="timelogs"
+													class="comment-small comment-removable hide-label"
+													disabled={locked}
+												></lightning-input>
+
+												<template lwc:if={locked}></template>
+												<template lwc:else>
+													<div lwc:if={tse.first}></div>
+													<div lwc:else class="remove-row-button"><i class="fa-solid fa-xmark" data-day={day.day} data-index={tse.index} data-recordid={tse.value.Id} data-recordtype="timelogs" onclick={removeEntry}></i></div>
+												</template>
+											</div>
+											<!-- Close fields -->
+										</div>
+									</template>
+
+									<template lwc:if={day.expensesMade}>
+										<div class="slds-show_medium slds-grid slds-gutters slds-wrap expenses-seperator">
+											<div class="slds-col slds-medium-size_2-of-12 slds-large-size_1-of-12">{labels.attachment}</div>
+											<div class="slds-col slds-medium-size_2-of-12 slds-large-size_1-of-12">{labels.amount}</div>
+											<div class="slds-col slds-medium-size_4-of-12 slds-large-size_4-of-12">{labels.typeLabel}</div>
+											<div class="slds-col slds-medium-size_4-of-12 slds-large-size_6-of-12">{labels.comment}</div>
+										</div>
+
+										<template iterator:tse={day.expenses}>
+											<div key={tse.value.Id} class="slds-grid slds-gutters slds-wrap entry-container">
+												<!-- Open fields -->
+												<div class="slds-col slds-size_1-of-1 slds-medium-size_2-of-12 slds-large-size_1-of-12 hide-label">
+													<label class="slds-form-element__label slds-no-flex">Attachment (not translated)</label>
+													<div><i class="fa-solid fa-eye view-attachment" data-contentversionid={tse.value.Attachment_content_version_ID__c} onclick={navigateToFile} title={tse.value.Attachment_name__c}></i></div>
+												</div>
+
+												<div class="slds-col slds-size_1-of-1 slds-medium-size_2-of-12 slds-large-size_1-of-12">
+													<lightning-input
+														type="number"
+														formatter="currency"
+														value={tse.value.Amount__c}
+														label={labels.amount}
+														read-only={expensesDisabled}
+														class="hide-label amount"
+														disabled={locked}
+													></lightning-input>
+												</div>
+
+												<div class="slds-col slds-size_1-of-1 slds-medium-size_4-of-12 slds-large-size_4-of-12">
+													<lightning-input
+														type="text"
+														value={tse.value.Expense_type__c}
+														label="Type"
+														read-only={expensesDisabled}
+														class="hide-label"
+														disabled={locked}
+													></lightning-input>
+												</div>
+
+												<div class="slds-col slds-size_1-of-1 slds-medium-size_4-of-12 slds-large-size_6-of-12">
+													<lightning-input
+														type="text"
+														value={tse.value.Comment__c}
+														label={labels.comment}
+														read-only={expensesDisabled}
+														class="comment-small comment-removable hide-label"
+														disabled={locked}
+													></lightning-input>
+
+													<template lwc:if={locked}></template>
+													<template lwc:else>
+														<div class="remove-row-button"><i class="fa-solid fa-xmark" data-day={day.day} data-index={tse.index} data-recordid={tse.value.Id} data-recordtype="expenses" onclick={removeEntry}></i></div>
+													</template>
+												</div>
+											</div>
+										</template>
+									</template>
+								</div>
+							</div>
+						</div>
+					</template>
+				</div>
+			</template>
+		</div>
+
+		<footer class="slds-card__footer">
+			<template lwc:if={locked}></template>
+			<template lwc:else>
+				<lightning-button variant="brand" label={labels.save} title="Primary action" disabled={disabled} onclick={handleSave} class="save-button"></lightning-button>
+			</template>
+
+			<template lwc:if={loading}>
+				<lightning-spinner variant="brand" size="large"> </lightning-spinner>
+			</template>
+		</footer>
+	</article>
+</template>

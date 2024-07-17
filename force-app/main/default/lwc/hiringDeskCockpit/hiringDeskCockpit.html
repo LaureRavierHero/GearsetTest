@@ -1,0 +1,45 @@
+<template>
+	<c-custom-page-section title={title}>
+		<div slot="body">
+			<div class="slds-var-m-around_large	">
+				<template lwc:if={filteredData}>
+					<c-filter-component 
+					filters={filters}
+					table-data={filteredData}
+					onfiltersselected={handleFilters}
+					>
+					</c-filter-component>
+				</template>
+			</div>
+			<div class="slds-var-m-around_large	">
+				<template lwc:if={loading}>
+					<lightning-spinner variant="brand" size="large"> </lightning-spinner>
+				</template>
+				<template lwc:if={filteredData}>
+					<c-custom-datatable
+						key-field={idColumn}
+						data={paginatedData}
+						columns={columns}
+						onsort={handleSorting}
+						onsave={handleSave}
+						onrowaction={handleRowAction}
+						hide-checkbox-column="true"
+						default-sort-direction='asc'
+						sorted-by={sortBy}
+						sorted-direction={sortDirection}
+						draft-values={draftValues}
+						>
+					</c-custom-datatable>
+				</template>
+				<template lwc:elseif={error}>
+					<p>{error}</p>
+				</template>
+			</div>
+			<div class="slds-var-m-around_large	">
+				<template lwc:if={hasPagination}>
+					<c-pagination-component table-data={filteredData} onvisiblerecordsupdated={handlePagination}></c-pagination-component>
+				</template>
+			</div>
+		</div>
+	</c-custom-page-section>
+</template>

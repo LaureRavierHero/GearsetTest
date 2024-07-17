@@ -1,0 +1,38 @@
+<template>
+	<lightning-quick-action-panel header={labels.windowTitle}>
+		<template lwc:if={loading}>
+			<lightning-spinner variant="brand" size="large"> </lightning-spinner>
+		</template>
+		<template lwc:else>
+			<template lwc:if={error}>
+				{error}
+			</template>
+			<template lwc:elseif={hasRecords}>
+				<template lwc:if={data}>
+					<c-custom-datatable
+						key-field={idColumn}
+						data={data}
+						columns={columns}
+						hide-checkbox-column="true"
+						errors={errors}
+						>
+					</c-custom-datatable>
+				</template>
+			</template>
+			<template lwc:else>
+				{labels.nothingToShow}
+			</template>
+			<div slot="footer">
+				<lightning-button variant="neutral" label={labels.cancelLabel} onclick={handleCancel}></lightning-button>
+				<lightning-button
+				variant="brand"
+				class="slds-m-left_x-small"
+				label={labels.submitLabel}
+				type="submit"
+				onclick={handleSubmit}
+				disabled={disabled}>
+				</lightning-button>
+			</div>
+		</template>
+	</lightning-quick-action-panel>
+</template>

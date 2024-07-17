@@ -1,0 +1,31 @@
+<template>
+    <article class="slds-card slds-card_boundary">
+        <div class="slds-page-header slds-page-header_joined slds-shrink-none test-headerRegion slds-is-relative">
+            <div class="slds-media slds-media--center slds-has-flexi-truncate">
+                <div class="slds-media slds-no-space slds-grow">
+                    <span class="record-avatar-container slds-avatar slds-avatar_small icon slds-m-right_small">
+                        <lightning-icon icon-name={iconName} icon-class={iconClass}></lightning-icon>
+                    </span>
+                    <div class="slds-media__body slds-align-middle">
+                        <div class="slds-card__header-title">
+                            <h2 class="slds-card__header-title">
+                                <div class="slds-card__header-link baseCard__header-title-container">
+                                    <span class="slds-truncate slds-m-right--xx-small" title={title}>
+                                        {title}
+                                    </span>
+
+                                    <span lwc:if={count} class="lds-shrink-none slds-m-right--xx-small">
+                                        ({count})
+                                    </span>
+                                </div>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slds-card__body slds-card__body_inner">
+			<slot name="body"></slot>
+        </div>
+    </article>
+</template>

@@ -1,0 +1,47 @@
+<template>
+    <div class="anchor">
+		<template lwc:if={isRichText}>
+			<template lwc:if={editable}>
+				<div class="slds-grid slds-grid_align-spread">
+					<div class="slds-truncate">
+						<lightning-formatted-rich-text class="slds-line-clamp" value={value}></lightning-formatted-rich-text>
+					</div>
+					<lightning-button-icon class="slds-button slds-button_icon slds-cell-edit__button slds-m-left_x-small" icon-name="utility:edit" variant="bare" onclick={handleStartModalEdit}>
+					</lightning-button-icon>
+				</div>
+			</template>
+			<template lwc:else>
+				<div class="slds-truncate">
+					<lightning-formatted-rich-text class="slds-line-clamp" value={value}></lightning-formatted-rich-text>
+				</div>
+			</template>
+		</template>
+		<template lwc:else>
+			<template lwc:if={editable}>
+				<template lwc:if={editMode}>
+					<div class="slds-float_left">
+						<section class="slds-popover slds-nubbin_top-left slds-float_left slds-popover_large" role="dialog">
+							<span class="slds-grid slds-grid_align-spread slds-form-element__control slds-input-has-icon slds-input-has-icon_right">
+								<lightning-icon tabindex="0" size="xx-small" class="slds-icon slds-input__icon slds-input__icon_right slds-icon-text-default" icon-name="utility:save"
+								onmousedown={handleClickInProgress} onmouseup={handleSave}></lightning-icon>
+								<input type="text" value={value} class="slds-input" onblur={handleBlur}/>
+							</span>
+						</section>
+					</div>
+				</template>
+				<template lwc:else>
+					<div class="slds-grid slds-grid_align-spread">
+						<div class="slds-truncate">
+							<lightning-formatted-text class="slds-line-clamp" value={value}></lightning-formatted-text>
+						</div>
+						<lightning-button-icon class="slds-button slds-button_icon slds-cell-edit__button slds-m-left_x-small" icon-name="utility:edit" variant="bare" onclick={handleStartEdit}>
+						</lightning-button-icon>
+					</div>
+				</template>
+			</template>
+			<template lwc:else>
+				<lightning-formatted-text value={value}></lightning-formatted-text>
+			</template>
+		</template>
+	</div>
+</template>

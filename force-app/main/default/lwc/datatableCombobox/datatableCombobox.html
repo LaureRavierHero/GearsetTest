@@ -1,0 +1,19 @@
+<template>
+    <template lwc:if={editable}>
+        <div class="combobox-container">
+            <lightning-combobox
+                name="picklist"
+                label="picklist"
+                value={value}
+                placeholder={placeholder}
+                options={options}
+                onchange={handleChange}
+                variant="label-hidden"
+                disabled={locked}>
+            </lightning-combobox>
+        </div>
+    </template>
+    <template lwc:else>
+        <lightning-formatted-text value={label}></lightning-formatted-text>
+    </template>
+</template>

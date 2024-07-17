@@ -1,0 +1,48 @@
+<template>
+	<lightning-modal-header label={label}></lightning-modal-header>
+	<lightning-modal-body>
+		<template lwc:if={loading}>
+			<lightning-spinner variant="brand" size="large"> </lightning-spinner>
+		</template>
+
+		<template lwc:if={showTemplatePicker}>
+			<div class="slds-m-bottom_small">
+				<lightning-record-picker
+					label={labels.recordPickerName}
+					placeholder={labels.recordPickerPlaceholder}
+					object-api-name={objectName}
+					filter={filter}
+					onchange={handleTemplateSelect}
+				>
+				</lightning-record-picker>
+			</div>
+		</template>
+
+		<template lwc:if={recordTypeId}>
+			<c-custom-record-form
+				record-id={createdRecordId}
+				object-name={objectName}
+				record-type-id={recordTypeId}
+				field-values={fieldValues}
+				hidden-fields={hiddenFields}
+				onrecordcreated={handleRecordSubmitted}
+				onrecordsubmiterror={handleRecordSubmitError}
+				>
+			</c-custom-record-form>
+		</template>
+
+		<c-file-upload-component 
+			label={labels.addFiles}
+			record-id={positionId}
+			multiple="true"
+		></c-file-upload-component>
+	</lightning-modal-body>
+	<lightning-modal-footer>
+		<lightning-button variant="brand-outline" type="button" label={labels.cancel} onclick={handleCancel}></lightning-button>
+		<lightning-button variant="brand" type="submit" label={labels.save} onclick={handleSaveOnly} class="slds-m-left_x-small"></lightning-button>
+		<template lwc:if={isTemplate}></template>
+		<template lwc:else>
+			<lightning-button variant="brand" type="submit" label={labels.saveAndSubmit} onclick={handleSaveSubmit} class="slds-m-left_x-small"></lightning-button>
+		</template>
+	</lightning-modal-footer>
+</template>

@@ -1,0 +1,23 @@
+:host {
+	--slds-c-accordion-summary-color-background: #F3F3F3;
+}
+
+.accordion-negative-margin {
+	margin: 0 -.75rem;
+}
+
+.accordion-has-error {
+	border-left: 3px solid #EA001E;
+}
+
+.hidden-field {
+	display: none;
+}
+
+.accordion-section{
+	padding-top: var(--lwc-spacingSmall);
+}
+
+.empty-check:not(:has(input)) {
+	display: none;
+}

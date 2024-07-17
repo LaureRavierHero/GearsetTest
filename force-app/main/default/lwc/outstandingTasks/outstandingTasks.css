@@ -1,0 +1,39 @@
+.new-task {
+	color: rgb(234, 0, 30);
+	font-weight: bold;
+}
+
+.date {
+	position: relative;
+	margin-bottom: .25rem;
+}
+
+.date:first-letter {
+	text-transform: uppercase;
+}
+
+.date-icon {
+	margin-right: .25rem;
+	margin-top: 2px;
+	float: left;
+}
+
+.checkbox {
+	cursor: pointer;
+}
+
+.clock-green {
+	--slds-c-icon-color-foreground-default: #45C65A;
+}
+
+.clock-yellow {
+	--slds-c-icon-color-foreground-default: #FCC003;
+}
+
+.clock-orange {
+	--slds-c-icon-color-foreground-default: #FE9339;
+}
+
+.clock-red {
+	--slds-c-icon-color-foreground-default: #FE5C4C;
+}

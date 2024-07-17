@@ -1,0 +1,38 @@
+<template>
+    <template lwc:if={objectName}>
+        <!-- <template lwc:if={required}> -->
+        <div class="slds-grid">
+            <div class="slds-col slds-size_11-of-12">
+                <form>
+                    <lightning-record-picker
+                        variant="label-hidden"
+                        label={label}
+                        placeholder={placeholder}
+                        object-api-name={objectName}
+                        onchange={handleSelection}
+                        onerror={handleError}
+                        required={required}
+                    ></lightning-record-picker>
+                </form>
+            </div>
+            <!-- </template> -->
+            <!-- <template lwc:else>
+                <lightning-record-picker
+                    variant="label-hidden"
+                    label={label}
+                    placeholder={placeholder}
+                    object-api-name={objectName}
+                    onchange={handleSelection}
+                ></lightning-record-picker>
+            </template> -->
+            <div class="slds-col slds-size_1-of-12 slds-p-left_x-small slds-p-top_xx-small">
+                <lightning-button-icon
+                icon-name="utility:add"
+                variant="bare"
+                onclick={handleCreateNew}
+                ></lightning-button-icon>
+                <!-- <lightning-button variant="bare" label={labels.newCandidate} onclick={handleCreateNew}></lightning-button> -->
+            </div>
+        </div>
+    </template>
+</template>

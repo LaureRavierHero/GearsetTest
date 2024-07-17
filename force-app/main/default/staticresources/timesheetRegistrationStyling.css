@@ -1,0 +1,9 @@
+.amount input[type=text]{
+	padding-right: 0;
+}
+
+@media (min-width: 768px) {
+    .hide-label .slds-form-element__label{
+        display : none; 
+    }
+}

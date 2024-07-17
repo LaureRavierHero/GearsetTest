@@ -1,0 +1,49 @@
+<template>
+    <div class="slds-form-element">
+        <template if:true={label}>
+            <label class="slds-form-element__label">{label}</label>
+        </template>
+        <div class="slds-form-element__control">
+            <div class="slds-combobox_container">
+                <div id="ms-picklist-dropdown" class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click slds-picklist ms-picklist-dropdown" aria-expanded="false" aria-haspopup="listbox" role="combobox">
+                    <div class="slds-combobox_form-element slds-input-has-icon slds-input-has-icon_right" role="none">
+                        <!-- <input type="search" placeholder={comboplaceholder} class="slds-combobox__input ms-input" id="ms-input" aria-controls="ms-dropdown-items" onchange={filterDropDownValues} oninput={filterDropDownValues}/> -->
+                        <!-- <lightning-input label="Searchable Combobox" type="search" onfocus={showPicklistOptions}
+                            onchange={search} value={selectedValue}>
+                        </lightning-input> -->
+                        <!-- <lightning-input type="search" onchange={filterDropDownValues} value={selectedValue} id="ms-input" class="slds-combobox__input ms-input">
+                        </lightning-input> -->
+                        <input
+                            class="multi-select-combobox__input ms-input"
+                            id="ms-input"
+                            aria-controls="multi-pick-list-dropdown-items"
+                            role="textbox"
+                            type="text"
+                            value=""
+                            placeholder=""
+                            required={required}
+                            disabled={isDisabled}
+                            readonly
+                        />
+                        <span class="slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right" title="Click to open the dropdown" style="display: inline-block">
+                            <lightning-icon icon-name="utility:down" size="x-small" alternative-text="Click here" class="slds-icon slds-icon--selected slds-icon--x-small slds-icon-text-default slds-m-right--x-small" ></lightning-icon>
+                        </span>
+                    </div>
+                    <div id="ms-dropdown-items" class="te" role="listbox">
+                        <ul class="multi-select-combobox__listbox slds-listbox slds-listbox_vertical slds-dropdown slds-dropdown_fluid" id="ms-dropdownlist" role="presentation">
+                            <lightning-input class="slds-combobox__input slds-p-left_x-small slds-p-right_x-small" type="search" oninput={handleFilterInput} onchange={handleFilterInput} value={filterValue}>
+                            </lightning-input>
+                            <template lwc:if={_options}>
+                                <template for:each={_options} for:item="item">
+                                    <c-pick-list-item display-type={displayType} key={item.key} label={item.label} value={item.value} selected={item.selected} onitemselected={handleItemSelected}></c-pick-list-item>
+                                </template>
+                                    <lightning-button variant="brand" label={labels.apply} title="Apply" class="slds-align_absolute-center slds-p-top_x-small" onclick={handleApply}></lightning-button>                        '
+                            </template>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+			
+        </div>
+    </div>
+</template>

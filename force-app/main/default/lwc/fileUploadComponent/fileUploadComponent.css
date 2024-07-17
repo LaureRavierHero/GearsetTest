@@ -1,0 +1,8 @@
+.upload-component-wrapper {
+    padding-top: var(--lwc-spacingSmall);
+    border-top: 1px solid rgb(201, 201, 201);
+}
+
+.file a {
+    vertical-align: -1px;
+}

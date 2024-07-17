@@ -1,0 +1,31 @@
+<template>
+    <template lwc:if={applicationId}>
+        <lightning-button-icon
+            icon-name="utility:close"
+            variant="bare"
+            onclick={clear}>
+        </lightning-button-icon>
+        <lightning-tile class="slds-p-around_medium lgc-bg">
+            <c-intake-small-view
+                application-id={applicationId}
+                onintakestatuschanged={handleIntakeChanged}>
+            </c-intake-small-view>
+        </lightning-tile>
+        <div class="slds-p-top_medium">
+            <c-portal-buttons
+                record-id={applicationId}
+                onactionexecuted={handleActionExecuted}
+            >
+            </c-portal-buttons>
+        </div>
+        <div class="slds-p-top_medium">
+            <lightning-record-form
+                record-id={applicationId}
+                object-api-name="Application__c"
+                layout-type="Full"
+                mode="readonly"
+            >
+            </lightning-record-form>
+        </div>
+    </template>
+</template>

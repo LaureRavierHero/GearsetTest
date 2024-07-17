@@ -1,0 +1,48 @@
+<template>
+    <template lwc:if={intakes}>
+        <!-- <div class="slds-grid slds-gutters slds-wrap"> -->
+            <template for:each={intakes} for:item="intake">
+                <div key={intake.Id} class="slds-grid slds-gutters slds-wrap">
+                    <div class="slds-col slds-size_4-of-6">
+                        <lightning-icon slot="media" icon-name="standard:messaging_user"></lightning-icon>
+                        <dl class="slds-dl_horizontal">
+                            <dt class="slds-dl_horizontal__label">
+                                <p class="slds-truncate" title="Status">Status:</p>
+                            </dt>
+                            <dd class="slds-dl_horizontal__detail slds-tile__meta">
+                                <p class="slds-truncate" title="Status">{intake.Status__c}</p>
+                            </dd>
+                            <dt class="slds-dl_horizontal__label">
+                                <p class="slds-truncate" title="Date">{labels.date}:</p>
+                            </dt>
+                            <dd class="slds-dl_horizontal__detail slds-tile__meta">
+                                <lightning-formatted-date-time 
+                                value={intake.Date_of_intake__c}
+                                year="numeric"
+                                month="numeric"
+                                day="numeric"
+                                hour="2-digit"
+                                minute="2-digit">
+                                </lightning-formatted-date-time>
+                                <!-- <p class="slds-truncate" title="Date">{intake.Date_of_intake__c}</p> -->
+                            </dd>
+                            <dt class="slds-dl_horizontal__label">
+                                <p class="slds-truncate" title="Type">Type:</p>
+                            </dt>
+                            <dd class="slds-dl_horizontal__detail slds-tile__meta">
+                                <p class="slds-truncate" title="Type">{intake.Type_of_intake__c}</p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="slds-col slds-size_2-of-6">
+                        <c-portal-buttons
+                            record-id={intake.Id}
+                            onactionexecuted={handleActionExecuted}    
+                        >
+                        </c-portal-buttons>
+                    </div>
+                </div>
+            </template>
+        <!-- </div> -->
+    </template>
+</template>

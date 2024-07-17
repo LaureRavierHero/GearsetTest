@@ -1,0 +1,31 @@
+<template>
+    <c-custom-related-list title={labels.lbl_rate_percentage_header} icon-name="standard:task" count={count}>
+        <div slot="body">
+            <template lwc:if={view}>
+                <ul class="slds-has-dividers_bottom-space">
+                    <template for:each={selectedItems} for:item="i">
+                        <li key={i.Id} class="slds-item">{i.Name}</li>
+                    </template>
+                </ul>
+                <div class="slds-var-m-top_large">
+                    <lightning-button variant="Neutral" label={labels.lbl_edit} onclick={handleEditClick} ></lightning-button>
+                </div>
+            </template>
+            <template lwc:else>
+                <lightning-dual-listbox name="Rate percentages"
+                                        label={labels.lbl_rate_percentage_select_options}
+                                        source-label={labels.lbl_rate_percentage_available}
+                                        selected-label={labels.lbl_rate_percentage_selected}
+                                        options={options}
+                                        required-options={requiredOptions}
+                                        value={values}
+                                        onchange={handleChange}
+                                        >
+                                        </lightning-dual-listbox>
+                <div class="slds-var-m-top_large">
+                    <lightning-button variant="Brand" label={labels.lbl_save} onclick={handleSaveClick} class="slds-var-m-top_large"></lightning-button>
+                </div>
+            </template> 
+        </div>
+    </c-custom-related-list>
+</template>

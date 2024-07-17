@@ -1,0 +1,21 @@
+<template>
+    <lightning-card  variant="Narrow"  title={label} icon-name="standard:document">
+        <template if:true={isLoading}>
+            <lightning-spinner alternative-text="Loading" size="small" variant="brand"></lightning-spinner>
+        </template>
+        <lightning-button if:true={showsync} variant="brand" title="Content Sync" icon-name="utility:sync"
+            onclick={handleSync} slot="actions" >
+        </lightning-button>
+        
+        <div class="slds-var-p-around_small">
+            <lightning-datatable
+                key-field="id"
+                data={dataList}
+                hide-table-header
+                hide-checkbox-column
+                columns={columnsList}
+                onrowaction={handleRowAction}>
+            </lightning-datatable>
+        </div>
+    </lightning-card>
+</template>

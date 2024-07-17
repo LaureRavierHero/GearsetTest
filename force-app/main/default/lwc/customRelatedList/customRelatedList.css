@@ -1,0 +1,5 @@
+.slds-page-header:not(.slds-page-header-no-border) {
+	border-bottom: var(--lwc-borderWidthThin) solid rgb(201, 201, 201);
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}

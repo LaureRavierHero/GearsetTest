@@ -1,0 +1,67 @@
+<template>
+	<template lwc:if={layout}>
+		<lightning-accordion allow-multiple-sections-open="true" active-section-name={activeSections}>
+			<lightning-record-edit-form
+				record-id={recordId}
+				record-type-id={recordTypeId}
+				object-api-name={objectName}
+				onsuccess={handleSuccess}
+				onerror={handleError}
+				onsubmit={handleSubmit}
+				density="Comfy"
+			>
+				<lightning-messages></lightning-messages>
+				<template if:true={layout}>
+					<lightning-layout multiple-rows="true">
+						<lightning-layout-item size="12">
+							<template for:each={layout.sections} for:item="section">
+								<lightning-accordion-section key={section.id} name={section.id} label={section.heading}>
+									<div class="accordion-section">
+										<lightning-layout multiple-rows="true">
+											<template for:each={section.layoutRows} for:item="layoutRow">
+												<template for:each={layoutRow.layoutItems} for:item="layoutItem">
+													<template for:each={layoutItem.layoutComponents} for:item="layoutComponent">
+														<lightning-layout-item key={layoutComponent.apiName} size={section.numcols}>
+															<template lwc:if={layoutComponent.apiName}>
+																<template lwc:if={readOnly}>
+																	<lightning-output-field
+																		field-name={layoutComponent.apiName}
+																	>
+																	</lightning-output-field>
+																</template>
+																<template lwc:else>
+																	<lightning-input-field
+																		field-name={layoutComponent.apiName}
+																		required={layoutItem.required}
+																	>
+																	</lightning-input-field>
+																</template>
+															</template>
+														</lightning-layout-item>
+													</template>
+												</template>
+											</template>
+										</lightning-layout>
+									</div>
+								</lightning-accordion-section>
+							</template>
+						</lightning-layout-item>
+					</lightning-layout>
+				</template>
+
+				<template lwc:if={_hiddenFields}>
+					<template for:each={_hiddenFields} for:item="field">
+						<lightning-input-field key={field} class="hidden-field" field-name={field}></lightning-input-field>
+					</template>
+				</template>
+
+				<div class="slds-var-m-top_medium slds-hide">
+					<lightning-button variant="brand" type="submit" label="Save" onclick={handleClickSave} class="slds-hide hidden-button"></lightning-button>
+				</div>
+			</lightning-record-edit-form>
+		</lightning-accordion>
+	</template>
+	<template lwc:else>
+		<lightning-spinner variant="brand" size="large"> </lightning-spinner>
+	</template>
+</template>

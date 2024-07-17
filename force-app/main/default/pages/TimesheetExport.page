@@ -1,0 +1,82 @@
+<apex:page id="TimesheetExport" controller="TimesheetExportController" renderAs="pdf" language="nl-NL">
+	<apex:stylesheet value="{!$Resource.timesheetExport}" />
+	
+	<h1>{! $Label.lbl_Timesheet_summary }</h1>
+
+	<div class="timesheet-export">
+		<table class="table">
+			<tbody>
+				<tr>
+					<td style="width: 120px"><strong>{! $Label.lbl_Professional }:</strong></td>
+					<td>{! professional }</td>
+				</tr>
+
+				<tr>
+					<td><strong>{! $Label.lbl_Client }:</strong></td>
+					<td>{! employer }</td>
+				</tr>
+
+				<tr>
+					<td><strong>{! $Label.lbl_Position }:</strong></td>
+					<td>{! job }</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h2>{! $Label.lbl_Entries }</h2>
+
+		<table class="table data-table">
+			<thead>
+				<tr>
+					<th style="width: 80px"><strong>{! $Label.lbl_Date }</strong></th>
+					<th style="width: 50px"><strong>{! $Label.lbl_hours }</strong></th>
+					<th style="width: 60px"><strong>{! $Label.lbl_Minutes }</strong></th>
+					<th><strong>{! $Label.lbl_Rate_Percentage }</strong></th>
+					<th><strong>{! $Label.lbl_Comment }</strong></th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<apex:repeat value="{!entries}" var="day">
+					<apex:repeat value="{!day.timelogs}" var="entry">
+						<tr>
+							<td><strong>{! day.dayFormatted }</strong></td>
+							<td>{! entry.Hours__c }</td>
+							<td>{! entry.Minutes__c }</td>
+							<td>{! entry.Rate_percentage__r.Name }</td>
+							<td>{! entry.Comment__c }</td>
+						</tr>
+					</apex:repeat>
+				</apex:repeat>
+			</tbody>
+		</table>
+
+		<apex:outputPanel rendered="{!if(anyExpensesMade == true, true, false)}">
+			<h2>{! $Label.lbl_Expenses }</h2>
+
+			<table class="table data-table">
+				<thead>
+					<tr>
+						<th style="width: 80px"><strong>{! $Label.lbl_Date }</strong></th>
+						<th style="width: 80px"><strong>{! $Label.lbl_Amount }</strong></th>
+						<th><strong>{! $Label.lbl_Type }</strong></th>
+						<th><strong>{! $Label.lbl_Comment }</strong></th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<apex:repeat value="{!entries}" var="day">
+						<apex:repeat value="{!day.expenses}" var="expense">
+							<tr>
+								<td><strong>{! day.dayFormatted }</strong></td>
+								<td>{! expense.Amount__c }</td>
+								<td>{! expense.Expense_type__c }</td>
+								<td>{! expense.Comment__c }</td>
+							</tr>
+						</apex:repeat>
+					</apex:repeat>
+				</tbody>
+			</table>
+		</apex:outputPanel>
+	</div>
+</apex:page>

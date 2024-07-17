@@ -1,0 +1,58 @@
+<template>
+    <c-custom-related-list title={labels.title} icon-name="utility:email" count="">
+        <div slot="body">
+            <template lwc:if={loading}>
+                <lightning-spinner variant="brand" size="large"></lightning-spinner>
+            </template>
+            <template lwc:else>
+                <template lwc:if={applicationsAllowed}>
+                <div>
+                    <div class="slds-m-bottom_small">
+                        <c-record-select-or-create
+                        hide-fields={candidateHideFields}
+                        object-name="Candidate__c"
+                        label={labels.newCandidate}
+                        placeholder={labels.selectCandidate}
+                        onrecordselected={handleCandidateSelection}
+                        required="true"
+                        ></c-record-select-or-create>
+                    </div>
+                    <div>
+                        <c-custom-record-form
+                        object-name='Application__c'
+                        record-type-id={recordTypeId}
+                        field-values={fieldValues}
+                        onrecordcreated={handleRecordSubmitted}
+                        hide-fields={hideFields}
+                        hidden-fields={hiddenFields}
+                        ></c-custom-record-form>
+                    </div>
+                    <div class="slds-p-left_small">
+                        <c-file-upload-component
+                            required=true
+                            limit-input=true
+                            label={labels.uploadResume}
+                        ></c-file-upload-component>
+                        <div class="slds-m-top_small">
+                            <lightning-button 
+                            label={labels.submitLabel}
+                            onclick={handleSave}
+                            variant="brand"
+                            class="slds-p-top_small"
+                            ></lightning-button>
+                            <lightning-button
+                            label={labels.clear}
+                            onclick={clear}
+                            class="slds-p-left_small"
+                            ></lightning-button>
+                        </div>
+                    </div>
+                </div>
+            </template>
+            <template lwc:else>
+                {labels.maxApplication}
+            </template>
+        </template>
+        </div>
+    </c-custom-related-list>
+</template>

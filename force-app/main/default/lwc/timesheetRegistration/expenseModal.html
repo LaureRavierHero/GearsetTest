@@ -1,0 +1,65 @@
+<template>
+	<lightning-modal-header label={labels.newExpense}></lightning-modal-header>
+
+	<lightning-modal-body>
+		<lightning-record-edit-form
+			object-api-name={objectApiName}
+			onsubmit={handleSubmit}
+			onsuccess={handleSuccess}
+			onerror={handleError}
+		>
+			<template lwc:if={fileUploaded}>
+				<div class="slds-form-element slds-form-element_horizontal">
+					<label class="slds-form-element__label">
+						{labels.uploadedAttachment}
+					</label>
+
+					<div class="slds-form-element__control">
+						<input type="text" class="slds-input" value={attachmentName} readonly>
+					</div>
+
+					<button class="slds-button slds-button_neutral" type="button" onclick={resetFile}>{labels.removeAttachment}</button>
+				</div>
+			</template>
+
+			<template lwc:else>
+				<lightning-file-upload
+					label={labels.attachment}
+					name="fileUploader"
+					accept={acceptedFormats}
+					onuploadfinished={handleUploadFinished}
+				></lightning-file-upload>
+			</template>
+
+			<lightning-input-field field-name={TYPE_FIELD} required></lightning-input-field>
+			
+			<div class="slds-form-element slds-form-element_horizontal">
+				<label class="slds-form-element__label" for="date-input">
+					<abbr class="slds-required" title="required">*</abbr>{labels.date}
+				</label>
+
+				<div class="slds-form-element__control">
+					<input id="date-input" type="date" class="slds-input" min={minDate} max={maxDate} onchange={changeDate} required>
+				</div>
+			</div>
+
+			<!-- <div class="slds-form-element slds-form-element_horizontal">
+				<label class="slds-form-element__label" for="date-input">
+					<abbr class="slds-required" title="required">*</abbr>Amount
+				</label>
+
+				<div class="slds-form-element__control">
+					<input id="amount-input" type="number" formatter="currency" step="0.01" class="slds-input" onchange={changeAmount} required>
+				</div>
+			</div> -->
+			
+			<lightning-input-field field-name={AMOUNT_FIELD} label="Bedrag" required></lightning-input-field>
+			<lightning-input-field field-name={COMMENT_FIELD}></lightning-input-field>
+
+			<div class="slds-var-m-top_medium">
+				<lightning-button type="button" onclick={handleReset} label={labels.labelClose} class="slds-var-m-right_medium"></lightning-button>
+				<lightning-button variant="brand" type="submit" label={labels.labelSave}></lightning-button>
+			</div>
+		</lightning-record-edit-form>
+	</lightning-modal-body>
+</template>

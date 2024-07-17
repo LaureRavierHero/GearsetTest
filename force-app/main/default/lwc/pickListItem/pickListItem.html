@@ -1,0 +1,26 @@
+<template>
+    <li role="presentation" class={itemClass} id="ms-list-item"  data-name={_value} onclick={onItemSelected}>
+        <div id="listbox-option-unique-id-01"  class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small slds-media_center" role="option">
+            <span class="slds-media__figure">
+                <lightning-icon icon-name="utility:check" size="x-small" alternative-text="Selected" class="slds-icon slds-icon--selected slds-icon--x-small slds-icon-text-default slds-m-right--x-small"></lightning-icon>
+            </span>
+            <template lwc:if={displayCheckBox}>
+                <span class="slds-media__body">
+                    <template lwc:if={_value}>
+                        <lightning-icon size="xx-small" icon-name="utility:check"></lightning-icon>
+                    </template>
+                </span>
+            </template>
+            <template lwc:elseif={displayStarRating}>
+                <span class="slds-media__body">
+                    <c-star-rater rating-value={_value}></c-star-rater>
+                </span>
+            </template>
+            <template lwc:else>
+                <span class="slds-media__body">
+                    <span class="slds-truncate" title={label}>{label}</span>
+                </span>
+            </template>
+        </div>
+    </li>
+</template>

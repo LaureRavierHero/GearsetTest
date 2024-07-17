@@ -1,0 +1,23 @@
+.combobox-container,
+.lookup-container{
+    width : 100%;
+    margin: spacingNone;
+}
+
+.combobox-container .slds-combobox__form-element
+{
+    /* z-index: 99 !important; */
+    overflow-x: visible !important;
+}
+
+.combobox-container .slds-dropdown
+{
+    position: relative !important;
+    z-index: 99 !important;
+    overflow-y: scroll !important;
+    overflow-x: visible !important;
+}
+
+th.slds-has-focus, td.slds-has-focus{
+    box-shadow: none !important;
+}

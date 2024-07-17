@@ -1,0 +1,51 @@
+<template>
+	<div class="slds-grid slds-gutters slds-gutters_xxx-small slds-grid_align-end">
+			<template for:each={buttons} for:item="button" for:index="index">
+				<div class="slds-col" key={button.label}>
+					<lightning-button
+					key={button.label}
+					data-index={index}
+					label={button.label}
+					variant={button.variant}
+					onclick={handleButtonClick}
+					></lightning-button>
+				</div>
+			</template>
+			<template lwc:if={showDuplicatePosition}>
+				<c-new-position-button 
+					record-id={recordId}
+				></c-new-position-button>
+			</template>
+		<!-- <template for:each={utilityButtons} for:item="button" for:index="index">
+			<div class="slds-col" key={button.label}>
+				<lwc:component 
+					lwc:is={button.constructor} lwc:spread={button.parameters}
+				></lwc:component>
+			</div>
+		</template> -->
+	</div>
+	<template if:true={showModal}>
+		<div tabindex="-1" class="slds-modal slds-fade-in-open">
+			<div class="slds-modal__container">
+				<button onclick={closeModal} aria-label="Close" 
+				class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse">
+					<lightning-icon icon-name="utility:close" size="small"></lightning-icon>
+					<span class="slds-assistive-text">Cancel and close</span>
+				</button>
+				<div class="slds-modal__header">
+					{flow.label}
+				</div>
+				<div class="slds-modal__content slds-p-around_medium">
+					<template if:true={flow}>
+						<lightning-flow 
+							flow-api-name={flow.flowName}				 
+							flow-input-variables={flowParameters}
+							onstatuschange={handleFlowStatusChange}>
+						</lightning-flow>
+					</template>
+				</div>
+			</div>
+		</div>
+		<div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+	</template>
+</template>

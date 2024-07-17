@@ -1,0 +1,36 @@
+<template>
+	<c-custom-related-list title={labels.outstandingTasks} icon-name="standard:task" count={count}>
+		<div slot="body">
+			<template lwc:if={visible}>
+				<template for:each={tasks} for:item="t">
+					<article key={t.recordId} class="slds-tile slds-media">
+						<lightning-input
+							data-recordid={t.recordId}
+							type="checkbox"
+							checked={t.Checked}
+							onchange={handleChange}
+							class="checkbox"
+						></lightning-input>
+
+						<div class="slds-media__body">
+							<h3 class="slds-truncate">
+								<a href={t.Url} class="subject">{t.Subject}</a>
+								<span lwc:if={t.NewLabel} class="new-task"> ({labels.newLabel})</span>
+								<template lwc:else></template>
+							</h3>
+							
+							<div class="slds-tile__detail date">
+								<lightning-icon icon-name="utility:clock" size="x-small" class={t.Color}></lightning-icon>
+								<lightning-formatted-date-time value={t.ActivityDate} month="long" day="2-digit" weekday="long"></lightning-formatted-date-time>
+							</div>
+						</div>
+					</article>
+				</template>
+			</template>
+
+			<template lwc:else>
+				{labels.noOutstandingTasks}
+			</template>
+		</div>
+	</c-custom-related-list>
+</template>

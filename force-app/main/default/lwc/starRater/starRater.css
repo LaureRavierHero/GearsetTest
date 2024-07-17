@@ -1,0 +1,17 @@
+.rating-stars .fa-star{
+    color: #ccc;
+}
+
+.rating-stars .fa-star.star-yellow{
+    cursor: pointer;
+    color: #ffbd0d;
+}
+
+.rating-stars .fa-star.star-blue{
+    color: #78B0FD;
+    cursor: default;
+}
+
+.view-only {
+    opacity: .4;
+}

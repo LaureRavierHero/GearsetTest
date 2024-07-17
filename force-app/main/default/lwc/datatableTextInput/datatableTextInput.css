@@ -1,0 +1,21 @@
+.slds-input-has-icon .slds-input__icon:not(button) {
+	pointer-events: all;
+	cursor: pointer;
+}
+
+.lightning-icon {
+	z-index: 99;
+}
+
+.anchor {
+	overflow: visible;
+    display: block;
+}
+
+.slds-popover {
+    position: absolute;
+}
+
+.wrap-text-full-view {
+	text-wrap: pretty;
+}

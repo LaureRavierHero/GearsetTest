@@ -1,0 +1,127 @@
+.THIS .grey-square {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+.THIS .custom-input .uiInput, 
+.THIS .custom-input .uiInputText, 
+.THIS .custom-input .uiInputSecret, 
+.THIS .custom-input input {
+    border: none !important; /* Remove the border */
+    background: transparent !important; /* Make the background transparent */
+    box-shadow: none !important; /* Remove any box shadow */
+    outline: none !important; /* Remove the outline */
+    width: 100% !important; /* Make the input fields full width */
+}
+
+.THIS .custom-input .slds-form-element__control {
+    border: none !important; /* Remove the border */
+    background: transparent !important; /* Make the background transparent */
+    box-shadow: none !important; /* Remove any box shadow */
+    outline: none !important; /* Remove the outline */
+    width: 100% !important; /* Make the input fields full width */
+}
+
+.THIS .full-width {
+    width: 100%; /* Ensure the containers are full width */
+}
+
+.THIS .full-width-input {
+    display: block; /* Make sure inputs are displayed as block elements */
+    width: calc(100% - 20px); /* Adjust for padding if needed */
+    padding: 10px; /* Optional: Add padding */
+}
+
+.THIS .full-width-button {
+    width: 100%; /* Ensure the button is full width */
+    padding: 10px; /* Optional: Add padding */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+
+
+.THIS #sfdc_user{
+    float:left;
+    width:23px;
+    height:25px;
+    padding-top:1px;
+    padding-left:2px;
+    margin:0px;
+
+}
+
+.THIS #sfdc_lock{
+    float:left;
+    width:23px;
+    height:25px;
+    padding-top:1px;
+    padding-left:2px;
+    margin:0px;
+}
+
+.THIS  #error {
+    text-align: center;
+    color:#FF0000;
+}
+
+.THIS  .login-icon {
+    color:#ccc;font-size:22px;
+}
+
+.THIS  button.sfdc_button {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #fff;
+    background-color: #0070d2;
+    border-color: #357ebd;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 10px 12px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.42857143;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.THIS  button:hover {
+    background-color:#3276b1;
+    border-color:#285e8e;
+    cursor:pointer;
+}
+
+.THIS button .label {
+    color: #fff;	
+}
+
+.THIS  input {
+    margin-left:10px;
+    margin-top: 3px;
+    border: 0px solid transparent;
+    width: 70%;
+    -webkit-appearance: none;
+    font-size: 14px;
+}
+
+
+.THIS  a {
+    color:white;
+    text-decoration: none;
+}
+.THIS  a:hover {
+    color:white;
+    text-decoration: none;
+}
+
+.THIS label.uiLabel-hidden {
+    display:none;
+}

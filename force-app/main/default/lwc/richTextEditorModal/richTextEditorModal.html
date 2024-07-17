@@ -1,0 +1,25 @@
+<template>
+    <lightning-modal-header
+      label={labels.title}
+    ></lightning-modal-header>
+    <lightning-modal-body>
+		<lightning-input-rich-text value={value}>
+		</lightning-input-rich-text>
+    </lightning-modal-body>
+    <lightning-modal-footer>
+		<lightning-button-group>
+			<lightning-button
+			disabled={saveInProcess}
+			onclick={handleCloseClick}
+			aria-label="Cancel and close"
+			label={labels.cancel}
+		  ></lightning-button>
+		  <lightning-button
+			disabled={saveInProcess}
+			onclick={handleSaveClick}
+			label={labels.save}
+		  ></lightning-button>
+		</lightning-button-group>
+   
+    </lightning-modal-footer>
+</template>

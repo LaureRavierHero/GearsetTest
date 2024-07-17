@@ -1,0 +1,18 @@
+<template>
+    <lightning-modal-header label={title}></lightning-modal-header>
+    <lightning-modal-body>
+        <template lwc:if={objectName}>
+            <c-custom-record-form
+                object-name={objectName}
+                record-type-id={recordTypeId}
+                hidden-fields={hiddenFields}
+                hide-fields={hideFields}
+                onrecordcreated={handleSuccess}
+            ></c-custom-record-form>
+        </template>
+    </lightning-modal-body>
+    <lightning-modal-footer>
+        <lightning-button variant="brand" label={labels.saveLabel} onclick={handleSave} class="slds-p-left_x-small"></lightning-button>
+        <lightning-button variant="bare" label={labels.cancelLabel} onclick={handleCancel}></lightning-button>
+    </lightning-modal-footer>
+</template>

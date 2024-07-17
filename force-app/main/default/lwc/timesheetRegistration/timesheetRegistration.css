@@ -1,0 +1,144 @@
+.THIS {
+}
+
+.timesheet-table{
+	margin: 0 -1rem;
+}
+
+.timesheet-table .row-container {
+	padding: .4rem .75rem;
+	border-top: 1px solid #c9c9c9;
+}
+
+.timesheet-table .expenses-seperator {
+	border-bottom: 1px solid #c9c9c9;
+	margin-top: .5rem;
+	padding: .25rem 0;
+}
+
+.timesheet-table .row-container:nth-of-type(2n) {
+	background-color: #f3f3f3;
+}
+
+.timesheet-table .row-container[data-day-type="saturday"] {
+	background-color: rgba(244, 96, 21, .2);
+}
+
+.timesheet-table .row-container[data-day-type="sunday"] {
+	background-color: rgba(244, 96, 21, .1);
+}
+
+.entry-container > div{
+	margin-bottom: .4rem;
+}
+
+@media (max-width: 767px) {
+	/* .timesheet-table > div:nth-of-type(2n) .entry-container:nth-of-type(2n){
+		background-color: #e5e5e5;
+	}
+
+	.entry-container-wrapper .entry-container:nth-of-type(2n){
+		background-color: #e5e5e5;
+	} */
+
+	.remove-row-button {
+		margin-top: 30px;
+	}
+}
+
+/* #e5e5e5;
+#c9c9c9;
+#aeaeae; */
+
+.date {
+	font-weight: bold;
+	color: #5c5c5c;
+}
+
+.date:first-letter {
+	text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+	.date {
+		font-size: 1.1rem;
+		margin: .5rem 0 1rem;
+	}
+}
+
+.add-row-button,
+.remove-row-button {
+	cursor: pointer;
+}
+
+.add-row-button:hover,
+.remove-row-button:hover {
+	color: rgba(70, 106, 250, .7);
+}
+
+.add-row-button {
+	margin-top: 7px;
+	float: right;
+}
+
+@media (max-width: 767px) {
+	.add-row-button {
+		margin-top: 3px;
+	}
+}
+
+.travel-cost{
+	margin-top: .25rem;
+}
+
+.comment-small.comment-removable {
+	width: calc(100% - 20px);
+	float: left;
+}
+
+.remove-row-button {
+	margin-top: 5px;
+	float: right;
+}
+
+@media (min-width: 768px) {
+	.comment-small {
+		width: calc(100% - 20px);
+		float: left;
+	}
+
+	.export-button {
+		margin-left: 20px;
+	}
+
+	.save-button {
+		margin-right: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.entry-container{
+		border-top: 1px solid #c9c9c9;
+		padding: .5rem 0;
+	}
+
+	/* .entry-container:first-child{
+		border-top: 1px solid #c9c9c9;
+		padding: .5rem 0;
+	} */
+
+	.remove-row-button {
+		margin-top: 30px;
+	}
+
+	.save-button {
+		margin-left: 20px;
+	}
+}
+
+.view-attachment{
+	cursor: pointer;
+	color: rgb(244, 96, 21);
+	font-size: 1rem;
+	margin-top: 7px;
+}

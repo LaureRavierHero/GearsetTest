@@ -1,0 +1,16 @@
+<template>
+    <lightning-modal-header label={label}></lightning-modal-header>
+
+	<lightning-modal-body>
+        <c-custom-record-form
+            object-name="Position__c"
+            read-only="true"
+            field-values={fields}
+            record-type-id={recordTypeId}
+        ></c-custom-record-form>
+    </lightning-modal-body>
+    <lightning-modal-footer>
+        <lightning-button variant="brand" type="button" label={labels.return} onclick={handleReturn}></lightning-button>
+        <lightning-button variant="brand" type="submit" label={labels.confirm} onclick={handleConfirm} class="slds-m-left_x-small"></lightning-button>
+    </lightning-modal-footer>
+</template>

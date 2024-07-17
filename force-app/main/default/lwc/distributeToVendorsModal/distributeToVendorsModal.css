@@ -1,0 +1,13 @@
+.categories{
+    color: #6c757d;
+    vertical-align: middle;
+}
+
+.minimal_alert{
+    background-image: none;
+    color: #fff;
+}
+
+.minimal_alert i{
+    color: #fff;
+}
