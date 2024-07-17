@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Determines which actions are tied to which buttons, allows for multiple action on a button</description>
+    <label>Portalbutton action configuration</label>
+    <pluralLabel>Portalbutton action configurations</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

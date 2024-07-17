@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Show_cv_column__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Determines whether cv column is shown in work component</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Determines whether cv column is shown in work component</inlineHelpText>
+    <label>Show cv column</label>
+    <type>Checkbox</type>
+</CustomField>

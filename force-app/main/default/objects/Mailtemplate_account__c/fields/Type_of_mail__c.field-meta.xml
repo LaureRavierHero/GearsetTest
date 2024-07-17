@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_mail__c</fullName>
+    <label>Type of mail</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Welcome_email</fullName>
+                <default>false</default>
+                <label>Welcome email</label>
+            </value>
+            <value>
+                <fullName>Distribution_email</fullName>
+                <default>false</default>
+                <label>Distribution email</label>
+            </value>
+            <value>
+                <fullName>Application rejection email to vendor</fullName>
+                <default>false</default>
+                <label>Application rejection email to vendor</label>
+            </value>
+            <value>
+                <fullName>Application to manager mail</fullName>
+                <default>false</default>
+                <label>Application to manager mail</label>
+            </value>
+            <value>
+                <fullName>Position rejection email</fullName>
+                <default>false</default>
+                <label>Position rejection email</label>
+            </value>
+            <value>
+                <fullName>Position to hiring desk</fullName>
+                <default>false</default>
+                <label>Position to hiring desk</label>
+            </value>
+            <value>
+                <fullName>Intake confirmation</fullName>
+                <default>false</default>
+                <label>Intake confirmation</label>
+            </value>
+            <value>
+                <fullName>Application confirmation to hiring desk</fullName>
+                <default>false</default>
+                <label>Application confirmation to hiring desk</label>
+            </value>
+            <value>
+                <fullName>Application rejection email</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Application rejection email</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

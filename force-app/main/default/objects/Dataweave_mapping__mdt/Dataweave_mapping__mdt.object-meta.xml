@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Object specifying a key mapping, key/value pairs are associated with it to form the mapping</description>
+    <label>Dataweave mapping</label>
+    <pluralLabel>Dataweave mapping</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

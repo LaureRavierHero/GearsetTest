@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Label__c</fullName>
+    <description>Fill out the API name of the custom label you want the button to display (or just a label if you don&apos;t care about/need translation)</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Fill out the API name of the custom label you want the button to display (or just a label if you don&apos;t care about/need translation)</inlineHelpText>
+    <label>Label</label>
+    <length>100</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

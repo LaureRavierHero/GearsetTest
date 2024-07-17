@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Id_column_field_name__c</fullName>
+    <description>Has to be the same as the Column_field_name on Account_datatable_settings, used to create clickable record link in table.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Has to be the same as the Column_field_name on Account_datatable_settings, used to create clickable record link in table.</inlineHelpText>
+    <label>Id column field name</label>
+    <length>80</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

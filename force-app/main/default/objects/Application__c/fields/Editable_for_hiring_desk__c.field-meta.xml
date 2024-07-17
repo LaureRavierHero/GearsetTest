@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Editable_for_hiring_desk__c</fullName>
+    <formula>ISPICKVAL(Status__c, &apos;New&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Editable for hiring desk</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

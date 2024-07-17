@@ -40,5 +40,13 @@
         <members>*</members>
         <name>DataweaveResource</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomLabel</name>
+    </types>
     <version>61.0</version>
 </Package>

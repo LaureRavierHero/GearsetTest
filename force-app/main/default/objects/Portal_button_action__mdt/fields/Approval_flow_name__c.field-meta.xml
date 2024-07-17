@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_flow_name__c</fullName>
+    <description>If you want an approval to be process by a flow, fill out the name here (only for recall/approve/reject, not submit)</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>If you want an approval to be process by a flow, fill out the name here (only for recall/approve/reject, not submit)</inlineHelpText>
+    <label>Approval flow name</label>
+    <length>180</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

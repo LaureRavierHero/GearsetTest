@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Id_column__c</fullName>
+    <description>Column that determines the key-field values for the lightning-datatable. Only use this field if you want the column visible, otherwise just specify the api field name in the appropriate field.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Column that determines the key-field values for the lightning-datatable. Only use this field if you want the column visible, otherwise just specify the api field name in the appropriate field.</inlineHelpText>
+    <label>Id column settings</label>
+    <referenceTo>Account_datatable_settings__mdt</referenceTo>
+    <relationshipLabel>Account datatable general settings</relationshipLabel>
+    <relationshipName>Account_datatable_general_settings</relationshipName>
+    <required>false</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

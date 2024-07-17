@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flow_name__c</fullName>
+    <description>If action type is flow, insert the flow&apos;s API name here</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>If action type is flow, insert the flow&apos;s API name here</inlineHelpText>
+    <label>Flow name</label>
+    <length>180</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

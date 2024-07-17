@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hiring_desk_queue_Position</fullName>
+    <columns>NAME</columns>
+    <columns>Internal_deadline__c</columns>
+    <columns>Hiring_manager__c</columns>
+    <columns>Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Queue</filterScope>
+    <label>Nog niet toegewezen aanvragen</label>
+    <queue>Hiring_desk_queue</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

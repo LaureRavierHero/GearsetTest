@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Star_rating_attributes__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Star rating attributes</label>
+    <referenceTo>Star_rating_attributes__mdt</referenceTo>
+    <relationshipLabel>Account datatable settings</relationshipLabel>
+    <relationshipName>Account_datatable_settings</relationshipName>
+    <required>false</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

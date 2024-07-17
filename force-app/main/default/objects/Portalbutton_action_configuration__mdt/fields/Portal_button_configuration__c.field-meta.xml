@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Portal_button_configuration__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Portal button configuration</label>
+    <referenceTo>Portal_button_configuration__mdt</referenceTo>
+    <relationshipLabel>Portalbutton action configurations</relationshipLabel>
+    <relationshipName>Portalbutton_action_configurations</relationshipName>
+    <required>false</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

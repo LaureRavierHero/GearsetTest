@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Action__c</fullName>
+    <description>If you have chosen Flow or Apex as action type, select an action here. This is used in portalButton.js to select and execute an action.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>If you have chosen Flow or Apex as action type, select an action here. This is used in portalButton.js to select and execute an action.</inlineHelpText>
+    <label>Action</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Recall approval</fullName>
+                <default>true</default>
+                <label>Recall approval</label>
+            </value>
+            <value>
+                <fullName>Reject approval</fullName>
+                <default>false</default>
+                <label>Reject approval</label>
+            </value>
+            <value>
+                <fullName>Approve approval</fullName>
+                <default>false</default>
+                <label>Approve approval</label>
+            </value>
+            <value>
+                <fullName>Submit approval</fullName>
+                <default>false</default>
+                <label>Submit approval</label>
+            </value>
+            <value>
+                <fullName>Plan intake</fullName>
+                <default>false</default>
+                <label>Plan intake</label>
+            </value>
+            <value>
+                <fullName>New application</fullName>
+                <default>false</default>
+                <label>New application</label>
+            </value>
+            <value>
+                <fullName>Placement request</fullName>
+                <default>false</default>
+                <label>Placement request</label>
+            </value>
+            <value>
+                <fullName>Provide info</fullName>
+                <default>false</default>
+                <label>Provide info</label>
+            </value>
+            <value>
+                <fullName>Intake report</fullName>
+                <default>false</default>
+                <label>Intake report</label>
+            </value>
+            <value>
+                <fullName>Extend placement</fullName>
+                <default>false</default>
+                <label>Extend placement</label>
+            </value>
+            <value>
+                <fullName>End placement</fullName>
+                <default>false</default>
+                <label>End placement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

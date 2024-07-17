@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_timesheet__c</fullName>
+    <formula>AND(
+  (IF(ISBLANK(Timesheets_created_till__c),true,
+     IF(Timesheets_created_till__c &lt;&gt;  Expected_end_date__c, true, false))),
+  (NOT(ISBLANK(Start_date__c))),
+  (NOT(ISBLANK(Expected_end_date__c))),
+  (NOT(ISBLANK(TEXT(Timesheet_date_notation__c)))),
+  (NOT(ISBLANK(Timesheet_size__c))),
+  (NOT(ISBLANK(Professional__c))),
+  (NOT(ISBLANK(Approver_timesheets__c)))
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Create timesheet</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

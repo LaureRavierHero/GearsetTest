@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alle_aanvragen</fullName>
+    <columns>NAME</columns>
+    <columns>Start_date__c</columns>
+    <columns>Processing_status__c</columns>
+    <columns>Deadline_candidate_submission__c</columns>
+    <columns>Is_template_position__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Is_template_position__c</field>
+        <operation>equals</operation>
+        <value>Actual_position</value>
+    </filters>
+    <label>Alle aanvragen</label>
+</ListView>

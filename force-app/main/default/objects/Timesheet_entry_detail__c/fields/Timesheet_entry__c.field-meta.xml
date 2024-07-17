@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Timesheet_entry__c</fullName>
+    <label>Timesheet entry</label>
+    <referenceTo>Timesheet_entry__c</referenceTo>
+    <relationshipLabel>Timesheet entry details</relationshipLabel>
+    <relationshipName>Timesheet_entry_details</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

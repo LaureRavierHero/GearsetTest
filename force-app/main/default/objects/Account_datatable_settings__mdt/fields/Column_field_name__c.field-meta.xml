@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Column_field_name__c</fullName>
+    <description>Used to create a wrapper to display and access data in the table, since we cannot have dots in those names (Application__c.Name is not valid)</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Used to create a wrapper to display and access data in the table, since we cannot have dots in those names (Application__c.Name is not valid)</inlineHelpText>
+    <label>Column field name</label>
+    <length>250</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

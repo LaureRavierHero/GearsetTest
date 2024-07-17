@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mijn_eigen_inschrijvingen</fullName>
+    <columns>NAME</columns>
+    <columns>Position__c</columns>
+    <columns>Candidate__c</columns>
+    <columns>Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>Mijn eigen aanbiedingen</label>
+    <sharedTo>
+        <portalRoleAndSubordinates>VendoraccountCustomerUser</portalRoleAndSubordinates>
+    </sharedTo>
+</ListView>

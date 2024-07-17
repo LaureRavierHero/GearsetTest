@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_id_column__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This signifies the column that contains the application Id. You have to query the application Id and you have to specify that column (and only that column) as the Id column.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>This signifies the column that contains the application Id. You have to query the application Id and you have to specify that column (and only that column) as the Id column.</inlineHelpText>
+    <label>Is id column</label>
+    <type>Checkbox</type>
+</CustomField>

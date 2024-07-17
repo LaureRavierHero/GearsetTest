@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Column_label__c</fullName>
+    <description>Specify the column name as shown in the table. Has to be a valid custom label so we can handle translation properly.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Specify the column name as shown in the table. Has to be a valid custom label so we can handle translation properly.</inlineHelpText>
+    <label>Column label</label>
+    <length>250</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

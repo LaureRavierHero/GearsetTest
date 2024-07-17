@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Review_score__c</fullName>
+    <inlineHelpText>Please review how well the candidate&apos;s skillset and personality match the position they were offered for</inlineHelpText>
+    <label>Review score</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Rating_list</valueSetName>
+    </valueSet>
+</CustomField>

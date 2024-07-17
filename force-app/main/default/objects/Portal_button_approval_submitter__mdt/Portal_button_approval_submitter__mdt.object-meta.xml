@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Determines who can submit a record for approval</description>
+    <label>Portal button approval submitter</label>
+    <pluralLabel>Portal button approval submitters</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

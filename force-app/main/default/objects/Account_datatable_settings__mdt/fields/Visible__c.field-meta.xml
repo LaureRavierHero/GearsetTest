@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Visible__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Uncheck this is a column should not be visible but instead is used, for example, combined with other data in one column.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Uncheck this is a column should not be visible but instead is used, for example, combined with other data in one column.</inlineHelpText>
+    <label>Visible</label>
+    <type>Checkbox</type>
+</CustomField>

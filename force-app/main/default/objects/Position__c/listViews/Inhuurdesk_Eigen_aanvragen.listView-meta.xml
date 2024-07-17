@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inhuurdesk_Eigen_aanvragen</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Start_date__c</columns>
+    <columns>Hiring_manager__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>Inhuurdesk - Eigen aanvragen</label>
+    <sharedTo>
+        <group>Aspen_hiring_desk</group>
+        <group>Hero_hiring_desk</group>
+    </sharedTo>
+</ListView>

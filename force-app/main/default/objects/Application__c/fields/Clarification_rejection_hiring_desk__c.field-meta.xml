@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clarification_rejection_hiring_desk__c</fullName>
+    <description>Reason/clarification sent to Vendor if application is rejected</description>
+    <externalId>false</externalId>
+    <label>Clarification rejection hiring desk</label>
+    <length>250</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

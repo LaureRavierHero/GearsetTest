@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Variant__c</fullName>
+    <description>Style attribute: determines the look of a lightning-button (see documentation for examples)</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Style attribute: determines the look of a lightning-button (see documentation for examples)</inlineHelpText>
+    <label>Variant</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>base</fullName>
+                <default>true</default>
+                <label>base</label>
+            </value>
+            <value>
+                <fullName>neutral</fullName>
+                <default>false</default>
+                <label>neutral</label>
+            </value>
+            <value>
+                <fullName>brand</fullName>
+                <default>false</default>
+                <label>brand</label>
+            </value>
+            <value>
+                <fullName>brand-outline</fullName>
+                <default>false</default>
+                <label>brand-outline</label>
+            </value>
+            <value>
+                <fullName>destructive</fullName>
+                <default>false</default>
+                <label>destructive</label>
+            </value>
+            <value>
+                <fullName>destructive-text</fullName>
+                <default>false</default>
+                <label>destructive-text</label>
+            </value>
+            <value>
+                <fullName>inverse</fullName>
+                <default>false</default>
+                <label>inverse</label>
+            </value>
+            <value>
+                <fullName>success</fullName>
+                <default>false</default>
+                <label>success</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

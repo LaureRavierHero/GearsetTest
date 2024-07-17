@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Contains all information to dynamically build the work component per client (columns to show, column order, type, sortable or not etc)</description>
+    <label>Account datatable settings</label>
+    <pluralLabel>Account datatable settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

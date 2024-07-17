@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Afgewezen_aanvragen</fullName>
+    <columns>NAME</columns>
+    <columns>Start_date__c</columns>
+    <columns>End_date__c</columns>
+    <columns>Amount_of_rejections__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Afgewezen aanvragen</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Aspen_hiring_manager</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

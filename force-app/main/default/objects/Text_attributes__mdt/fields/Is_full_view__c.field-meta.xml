@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_full_view__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check this box if you want the text to be shown in full, otherwise it will be truncated.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Check this box if you want the text to be shown in full, otherwise it will be truncated.</inlineHelpText>
+    <label>Is full view</label>
+    <type>Checkbox</type>
+</CustomField>

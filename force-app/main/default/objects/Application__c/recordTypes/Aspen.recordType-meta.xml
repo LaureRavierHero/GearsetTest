@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aspen</fullName>
+    <active>true</active>
+    <label>Aspen</label>
+    <picklistValues>
+        <picklist>Amount_of_intakes__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Approval_status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved by hiring desk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved by hiring manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected by hiring desk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected by hiring manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Withdrawn</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_recall__c</picklist>
+        <values>
+            <fullName>Candidate_is_sick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No_longer_interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other%2C which is %3A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Took_another_position</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_rejection_hiring_desk__c</picklist>
+        <values>
+            <fullName>Distance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hours available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional skills</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_rejection_hiring_manager__c</picklist>
+        <values>
+            <fullName>Distance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hours available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interpersonal skills</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional skills</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Review_score__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Send_to_hiring_manager__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Candidate withdrawn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information requested for placement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intake done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intake planned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intake requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Placement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Placement requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Position not accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Position not offered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Position offered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent to hiring manager</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

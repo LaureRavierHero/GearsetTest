@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Filter_logic__c</fullName>
+    <description>If there are multiple filters, this field determines how they work together to determine visibility. Looks like this:
+(1 AND 2) means that both the filter with Number__c 1 and the one with Number__c 2 have to evaluate to true. You can nest them as much as you want. If you con&apos;t fill this field out, all filters are linked together with AND.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>If there are multiple filters, this field determines how they work together to determine visibility. Looks like this:
+(1 AND 2) means that both the filter with Number__c 1 and the one with Number__c 2 have to evaluate to true. You can nest them as much as you want. If you con&apos;t fill this field out, all filters are linked together with AND.</inlineHelpText>
+    <label>Filter logic</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

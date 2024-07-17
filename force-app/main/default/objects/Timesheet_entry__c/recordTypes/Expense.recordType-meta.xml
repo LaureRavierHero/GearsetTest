@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expense</fullName>
+    <active>true</active>
+    <label>Expense</label>
+    <picklistValues>
+        <picklist>Expense_type__c</picklist>
+        <values>
+            <fullName>Extra reiskosten</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overnachting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Representatiekosten</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Amount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hours</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

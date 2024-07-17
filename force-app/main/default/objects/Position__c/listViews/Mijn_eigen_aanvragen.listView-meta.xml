@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mijn_eigen_aanvragen</fullName>
+    <columns>NAME</columns>
+    <columns>Start_date__c</columns>
+    <columns>Status__c</columns>
+    <columns>Processing_status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>IsGebruikerInhurendManager__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Is_template_position__c</field>
+        <operation>equals</operation>
+        <value>Actual_position</value>
+    </filters>
+    <label>Mijn aanvragen</label>
+    <sharedTo>
+        <role>Aspen_hiring_manager</role>
+    </sharedTo>
+</ListView>

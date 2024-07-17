@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_recall__c</fullName>
+    <label>Reason recall</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Took_another_position</fullName>
+                <default>false</default>
+                <label>Took another position</label>
+            </value>
+            <value>
+                <fullName>Candidate_is_sick</fullName>
+                <default>false</default>
+                <label>Candidate is sick</label>
+            </value>
+            <value>
+                <fullName>No_longer_interested</fullName>
+                <default>false</default>
+                <label>No longer interested</label>
+            </value>
+            <value>
+                <fullName>Other, which is :</fullName>
+                <default>false</default>
+                <label>Other, which is :</label>
+            </value>
+            <value>
+                <fullName>Reason1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reason1</label>
+            </value>
+            <value>
+                <fullName>Reason2</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reason2</label>
+            </value>
+            <value>
+                <fullName>Reason3</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reason3</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

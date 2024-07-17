@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Filter_settings__c</fullName>
+    <description>Used when you want to filter based on something other than specified api field (for related records for example). Leave empty if you want to just filter on value provided.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Used when you want to filter based on something other than specified api field (for related records for example). Leave empty if you want to just filter on value provided.</inlineHelpText>
+    <label>Filter settings</label>
+    <referenceTo>Filter_settings__mdt</referenceTo>
+    <relationshipLabel>Column component account connectors</relationshipLabel>
+    <relationshipName>Column_component_account_connectors</relationshipName>
+    <required>false</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

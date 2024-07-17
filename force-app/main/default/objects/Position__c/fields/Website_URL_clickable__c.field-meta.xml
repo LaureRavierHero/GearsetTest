@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Website_URL_clickable__c</fullName>
+    <description>Creates clickable link from URL with position name as label</description>
+    <externalId>false</externalId>
+    <formula>&apos;&lt;a href=&quot;&apos; + Website_URL__c + &apos;&quot; target=&quot;blank&quot;&gt;&apos; + Name + &quot;&lt;/a&gt;&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Website URL clickable</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

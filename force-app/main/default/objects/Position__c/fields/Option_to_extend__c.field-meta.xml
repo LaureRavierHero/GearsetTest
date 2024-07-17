@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Option_to_extend__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Indicates whether the possibility to extend the duration exists.</inlineHelpText>
+    <label>Option to extend</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

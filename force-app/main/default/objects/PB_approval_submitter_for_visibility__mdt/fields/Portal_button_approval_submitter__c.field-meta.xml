@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Portal_button_approval_submitter__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Portal button approval submitter</label>
+    <referenceTo>Portal_button_approval_submitter__mdt</referenceTo>
+    <relationshipLabel>PB approval submitter for visibilities</relationshipLabel>
+    <relationshipName>PB_approval_submitter_for_visibilities</relationshipName>
+    <required>false</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

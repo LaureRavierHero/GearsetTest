@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Positions_past_deadline</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Internal_deadline__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Internal_deadline__c</field>
+        <operation>lessOrEqual</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Aanvragen voorbij interne deadline</label>
+    <sharedTo>
+        <role>Aspen_hiring_desk</role>
+        <role>Hero_hiring_desk_operator</role>
+        <roleAndSubordinatesInternal>Aspen_hiring_desk_operator</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

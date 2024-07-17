@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Linked_document_column__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Linked document column</label>
+    <referenceTo>Linked_document_column__mdt</referenceTo>
+    <relationshipLabel>Column component account connectors</relationshipLabel>
+    <relationshipName>Column_component_account_connectors</relationshipName>
+    <required>false</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

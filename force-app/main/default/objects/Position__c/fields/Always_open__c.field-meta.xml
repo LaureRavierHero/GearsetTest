@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Always_open__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Check this box if you always want to receive applicants for this position. You can close the position by changing the status to &apos;Closed&apos;.</inlineHelpText>
+    <label>Always open</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

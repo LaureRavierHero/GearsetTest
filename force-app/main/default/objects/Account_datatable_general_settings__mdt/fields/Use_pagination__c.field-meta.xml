@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Use_pagination__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Determines whether pagination is added to workcomponent</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Use pagination</label>
+    <type>Checkbox</type>
+</CustomField>

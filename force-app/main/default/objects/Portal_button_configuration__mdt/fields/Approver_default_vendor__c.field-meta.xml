@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approver_default_vendor__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If manual chosen approver is default vendor contact AND the field on this object to get the vendor account is called Vendor__c, select this option</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>If manual chosen approver is default vendor contact AND the field on this object to get the vendor account is called Vendor__c, select this option</inlineHelpText>
+    <label>Approver default vendor</label>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Editable_if_true__c</fullName>
+    <description>If picklist availability depends on checkbox column, specify api name here</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>If picklist availability depends on checkbox column, specify api name here</inlineHelpText>
+    <label>Editable if true</label>
+    <length>180</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

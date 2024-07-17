@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Professional__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Field is filled if we got to the stage where a placement was requested and the vendor provided additional information</description>
+    <inlineHelpText>Field is filled if we got to the stage where a placement was requested and the vendor provided additional information</inlineHelpText>
+    <label>Professional</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Applications (Professional)</relationshipLabel>
+    <relationshipName>Professional_for_applications</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

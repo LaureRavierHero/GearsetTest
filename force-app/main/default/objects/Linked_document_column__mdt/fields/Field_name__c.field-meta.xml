@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_name__c</fullName>
+    <description>Name that the field has in the corresponding data wrapper (see ApplicationWrapper for example). Not ideal but best for now.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Name that the field has in the corresponding data wrapper (see ApplicationWrapper for example). Not ideal but best for now.</inlineHelpText>
+    <label>Field name</label>
+    <length>80</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

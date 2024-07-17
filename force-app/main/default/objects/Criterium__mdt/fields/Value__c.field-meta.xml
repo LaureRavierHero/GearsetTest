@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Value__c</fullName>
+    <description>Add the value(s) that complete the condition you want to evaluate. If you have chosen &quot;in&quot; as your condition, make sure items of the list are separated by a comma. For boolean values, use &apos;true&apos; or &apos;false&apos;.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Add the value(s) that complete the condition you want to evaluate. If you have chosen &quot;in&quot; as your condition, make sure items of the list are separated by a comma. For boolean values, use &apos;true&apos; or &apos;false&apos;.</inlineHelpText>
+    <label>Value(s)</label>
+    <length>32768</length>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_process_name__c</fullName>
+    <description>If type is &apos;Approval process&apos; or &apos;Approval start&apos;, supply the API name of the approval process here.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>If type is &apos;Approval process&apos; or &apos;Approval start&apos;, supply the API name of the approval process here.</inlineHelpText>
+    <label>Approval process name</label>
+    <length>180</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

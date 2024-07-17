@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Button_icon_attributes__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Button icon attributes</label>
+    <referenceTo>Button_icon_attributes__mdt</referenceTo>
+    <relationshipLabel>Column settings</relationshipLabel>
+    <relationshipName>Column_settings</relationshipName>
+    <required>false</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

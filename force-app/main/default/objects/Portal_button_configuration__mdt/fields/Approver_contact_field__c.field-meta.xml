@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approver_contact_field__c</fullName>
+    <description>Specify the field api name that contains the contact responsible for approvals, can stretch multiple relationships</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Specify the field api name that contains the contact responsible for approvals, can stretch multiple relationships</inlineHelpText>
+    <label>Approver contact field</label>
+    <length>180</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

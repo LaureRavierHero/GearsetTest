@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Combines styling, action and visibility setting into one configuration.</description>
+    <label>Portal button configuration</label>
+    <pluralLabel>Portal button configurations</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

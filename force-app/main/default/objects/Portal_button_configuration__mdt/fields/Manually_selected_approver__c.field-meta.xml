@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manually_selected_approver__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check this box if the approver needs to be gotten from a contact field reachable from this record and specify the field api name in &apos;Approver contact field&apos;</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Check this box if the approver needs to be gotten from a contact field reachable from this record and specify the field api name in &apos;Approver contact field&apos;</inlineHelpText>
+    <label>Manually selected approver</label>
+    <type>Checkbox</type>
+</CustomField>

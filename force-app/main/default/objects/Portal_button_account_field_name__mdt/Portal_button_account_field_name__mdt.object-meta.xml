@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>If the account field for an object is not Account__r.Name, specify it here</description>
+    <label>Portal button account field name</label>
+    <pluralLabel>Portal button account field names</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

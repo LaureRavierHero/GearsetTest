@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aanvragen_met_aanbiedingen</fullName>
+    <columns>NAME</columns>
+    <columns>Start_date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Processing_status__c</field>
+        <operation>equals</operation>
+        <value>Candidates offered and in review of manager</value>
+    </filters>
+    <label>Aanvragen met aanbiedingen</label>
+    <sharedTo>
+        <role>Aspen_hiring_manager</role>
+    </sharedTo>
+</ListView>

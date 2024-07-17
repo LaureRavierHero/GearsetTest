@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Static icon based on mapping between picklist values and icon (also a metadata type)</description>
+    <label>Icon from picklistvalue attributes</label>
+    <pluralLabel>Icon from picklistvalue attributes</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

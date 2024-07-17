@@ -1,0 +1,2318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ApexStandardAccountName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ApexStandardAccountName</shortDescription>
+        <value>Hero Interim Professionals</value>
+    </labels>
+    <labels>
+        <fullName>ApexStandardUserProfileId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ApexStandardUserProfileId</shortDescription>
+        <value>00e06000001xlNdAAI</value>
+    </labels>
+    <labels>
+        <fullName>ApexSystemAdminProfileId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ApexSystemAdminProfileId</shortDescription>
+        <value>00e06000001xlNcAAI</value>
+    </labels>
+    <labels>
+        <fullName>Apex_sample_data_filename</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Apex sample data filename</shortDescription>
+        <value>SampleData</value>
+    </labels>
+    <labels>
+        <fullName>Application_details_section_name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Application_details_section_name</shortDescription>
+        <value>Application details</value>
+    </labels>
+    <labels>
+        <fullName>Applications_label</fullName>
+        <language>nl_NL</language>
+        <protected>false</protected>
+        <shortDescription>Applications_label</shortDescription>
+        <value>Aanbiedingen</value>
+    </labels>
+    <labels>
+        <fullName>Button_label_cancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button_label_cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Button_label_reject_advance</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button_label_reject_advance</shortDescription>
+        <value>Reject/advance</value>
+    </labels>
+    <labels>
+        <fullName>Clarification_column_label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clarification_column_label</shortDescription>
+        <value>Clarification</value>
+    </labels>
+    <labels>
+        <fullName>Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Description</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>First_label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>First label</shortDescription>
+        <value>First</value>
+    </labels>
+    <labels>
+        <fullName>Generic_field_section_name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Generic_field_section_name</shortDescription>
+        <value>Details</value>
+    </labels>
+    <labels>
+        <fullName>Introduction_text</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Introduction</shortDescription>
+        <value>Introduction</value>
+    </labels>
+    <labels>
+        <fullName>LBL_apply</fullName>
+        <categories>LWC</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LBL_apply</shortDescription>
+        <value>Apply</value>
+    </labels>
+    <labels>
+        <fullName>LBL_categories_section_title</fullName>
+        <categories>LWC</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LBL_categories_section_title</shortDescription>
+        <value>Categories</value>
+    </labels>
+    <labels>
+        <fullName>LBL_clarification_textbox_header</fullName>
+        <categories>LWC</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LBL_clarification_textbox_header</shortDescription>
+        <value>Clarification</value>
+    </labels>
+    <labels>
+        <fullName>LBL_hiring_desk_cockpit_title</fullName>
+        <categories>LWC</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LBL_hiring_desk_cockpit_title</shortDescription>
+        <value>Applications overview</value>
+    </labels>
+    <labels>
+        <fullName>LBL_new_application</fullName>
+        <categories>Lwc, portalButtons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LBL_new_application</shortDescription>
+        <value>New application</value>
+    </labels>
+    <labels>
+        <fullName>LBL_nothing_to_show</fullName>
+        <categories>LWC</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LBL_nothing_to_show</shortDescription>
+        <value>Nothing to show.</value>
+    </labels>
+    <labels>
+        <fullName>LBL_plan_intake</fullName>
+        <categories>Lwc, portalButtons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LBL_plan_intake</shortDescription>
+        <value>Plan intake</value>
+    </labels>
+    <labels>
+        <fullName>LBL_recall_approval</fullName>
+        <categories>Lwc, portalButtons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LBL_Recall_approval</shortDescription>
+        <value>Recall</value>
+    </labels>
+    <labels>
+        <fullName>LBL_reject_approval</fullName>
+        <categories>Lwc, portalButtons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LBL_reject_approval</shortDescription>
+        <value>Reject</value>
+    </labels>
+    <labels>
+        <fullName>LBL_request_placement</fullName>
+        <categories>Lwc, portalButtons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LBL_request_placement</shortDescription>
+        <value>Request placement</value>
+    </labels>
+    <labels>
+        <fullName>LBL_submit</fullName>
+        <categories>LWC, general</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LBL_submit</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>LBL_submit_for_approval</fullName>
+        <categories>Lwc, portalButtons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LBL_submit_for_approval</shortDescription>
+        <value>Submit for approval</value>
+    </labels>
+    <labels>
+        <fullName>LWC_Error_Title</fullName>
+        <categories>LWC vendorsByCategory</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LWC Error Title</shortDescription>
+        <value>Something went wrong</value>
+    </labels>
+    <labels>
+        <fullName>LWC_Mail_Send_Successfully</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LWC Mail Send Successfully</shortDescription>
+        <value>Mail send successfully</value>
+    </labels>
+    <labels>
+        <fullName>LWC_Matching_Vendors</fullName>
+        <categories>LWC vendorsByCategory</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LWC Matching Vendors</shortDescription>
+        <value>Matching vendors</value>
+    </labels>
+    <labels>
+        <fullName>LWC_No_Categories_Selected</fullName>
+        <categories>LWC vendorsByCategory</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LWC No Categories Selected</shortDescription>
+        <value>You haven&apos;t selected any categories for this position</value>
+    </labels>
+    <labels>
+        <fullName>LWC_No_Matching_Vendors</fullName>
+        <categories>LWC vendorsByCategory</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LWC No Matching Vendors</shortDescription>
+        <value>No matching vendors</value>
+    </labels>
+    <labels>
+        <fullName>LWC_Remaining_Vendors</fullName>
+        <categories>LWC vendorsByCategory</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LWC Remaining Vendors</shortDescription>
+        <value>Remaining vendors</value>
+    </labels>
+    <labels>
+        <fullName>LWC_Send_To_Vendors</fullName>
+        <categories>LWC vendorsByCategory</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LWC_Send_To_Vendors</shortDescription>
+        <value>Send to vendors</value>
+    </labels>
+    <labels>
+        <fullName>LWC_Success_Title</fullName>
+        <categories>LWC vendorsByCategory</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LWC Success Title</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>LWC_Vendors_To_Mail</fullName>
+        <categories>LWC vendorsByCategory</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LWC Vendors To Mail</shortDescription>
+        <value>Vendors to mail</value>
+    </labels>
+    <labels>
+        <fullName>LWC_Vendors_To_Mail_Return_Success</fullName>
+        <categories>LWC vendorsByCategory</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LWC Vendors To Mail Return Success</shortDescription>
+        <value>Vendors mailed succesfully</value>
+    </labels>
+    <labels>
+        <fullName>Last_label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Last label</shortDescription>
+        <value>Last</value>
+    </labels>
+    <labels>
+        <fullName>Matching_Vendors</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Matching Vendors</shortDescription>
+        <value>Matching vendors</value>
+    </labels>
+    <labels>
+        <fullName>Next_label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next label</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>No</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No</shortDescription>
+        <value>No</value>
+    </labels>
+    <labels>
+        <fullName>Of_label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Of label</shortDescription>
+        <value>of</value>
+    </labels>
+    <labels>
+        <fullName>Page_label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Page label</shortDescription>
+        <value>Page</value>
+    </labels>
+    <labels>
+        <fullName>Position_details_section_name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Position details section name</shortDescription>
+        <value>Position details</value>
+    </labels>
+    <labels>
+        <fullName>Position_section_approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Position_section_approval</shortDescription>
+        <value>Approval</value>
+    </labels>
+    <labels>
+        <fullName>Position_section_description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Position_section_description</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>Position_section_duration</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Position_section_duration</shortDescription>
+        <value>Duration</value>
+    </labels>
+    <labels>
+        <fullName>Position_section_hours</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Position_section_hours</shortDescription>
+        <value>Hours</value>
+    </labels>
+    <labels>
+        <fullName>Position_section_internal</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Position_section_internal</shortDescription>
+        <value>Internal</value>
+    </labels>
+    <labels>
+        <fullName>Position_section_location</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Position_section_location</shortDescription>
+        <value>Location</value>
+    </labels>
+    <labels>
+        <fullName>Position_section_supplier</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Position_section_supplier</shortDescription>
+        <value>Supplier</value>
+    </labels>
+    <labels>
+        <fullName>Positon_section_compensation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Positon_section_compensation</shortDescription>
+        <value>Compensation</value>
+    </labels>
+    <labels>
+        <fullName>Previous_label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Previous label</shortDescription>
+        <value>Previous</value>
+    </labels>
+    <labels>
+        <fullName>Professional_section_contact_information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Professional section contact information</shortDescription>
+        <value>Contact information</value>
+    </labels>
+    <labels>
+        <fullName>Professional_section_internal_information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Professional section internal information</shortDescription>
+        <value>Internal information</value>
+    </labels>
+    <labels>
+        <fullName>Professional_section_personal_details</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Professional section personal details</shortDescription>
+        <value>Personal details</value>
+    </labels>
+    <labels>
+        <fullName>Records_per_page_label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Records per page label</shortDescription>
+        <value>Records per page</value>
+    </labels>
+    <labels>
+        <fullName>Reject_application_button_label</fullName>
+        <language>nl_NL</language>
+        <protected>false</protected>
+        <shortDescription>Reject application button label</shortDescription>
+        <value>Aanbieding afwijzen</value>
+    </labels>
+    <labels>
+        <fullName>Reject_application_flow_screen_header</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reject application flow screen header</shortDescription>
+        <value>Reject application</value>
+    </labels>
+    <labels>
+        <fullName>Requirements</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Requirements</shortDescription>
+        <value>Requirements</value>
+    </labels>
+    <labels>
+        <fullName>Standard_application_column_name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Standard application column name</shortDescription>
+        <value>Applications</value>
+    </labels>
+    <labels>
+        <fullName>Standard_available_from_column_name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Standard available from column name</shortDescription>
+        <value>Available from</value>
+    </labels>
+    <labels>
+        <fullName>Standard_candidate_column_name</fullName>
+        <language>nl_NL</language>
+        <protected>false</protected>
+        <shortDescription>Standard candidate column name</shortDescription>
+        <value>Kandidaat</value>
+    </labels>
+    <labels>
+        <fullName>Standard_clarification_column_label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Standard_clarification_column_label</shortDescription>
+        <value>Clarification</value>
+    </labels>
+    <labels>
+        <fullName>Standard_comment_column_label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Standard comment column label</shortDescription>
+        <value>Comments</value>
+    </labels>
+    <labels>
+        <fullName>Standard_contact_email_column_name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Standard contact email column name</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>Standard_contact_phone_column_name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Standard contact phone column name</shortDescription>
+        <value>Phone</value>
+    </labels>
+    <labels>
+        <fullName>Standard_end_date_column_name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Standard end date column name</shortDescription>
+        <value>End date</value>
+    </labels>
+    <labels>
+        <fullName>Standard_position_column_name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Standard position column name</shortDescription>
+        <value>Positions</value>
+    </labels>
+    <labels>
+        <fullName>Standard_rate_column_name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Standard rate column name</shortDescription>
+        <value>Rate</value>
+    </labels>
+    <labels>
+        <fullName>Standard_rating_column_name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Standard rating column name</shortDescription>
+        <value>Rating</value>
+    </labels>
+    <labels>
+        <fullName>Standard_rejection_reason_column_label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Standard rejection reason column label</shortDescription>
+        <value>Reason rejection</value>
+    </labels>
+    <labels>
+        <fullName>Standard_send_to_hiring_manager_column_name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Standard send to hiring manager column label</shortDescription>
+        <value>Send to manager</value>
+    </labels>
+    <labels>
+        <fullName>Standard_vendor_column_name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Standard vendor column name</shortDescription>
+        <value>Vendor</value>
+    </labels>
+    <labels>
+        <fullName>Standard_vendor_contact_column_name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Standard vendor contact column name</shortDescription>
+        <value>Contact</value>
+    </labels>
+    <labels>
+        <fullName>Total_records_label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total records label</shortDescription>
+        <value>Total records</value>
+    </labels>
+    <labels>
+        <fullName>Vendors_notified_rejection_advancement_open_title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Vendors_notified_rejection_advancement_open_title</shortDescription>
+        <value>Cannot reject application or send to hiring manager when status is &apos;Open&apos;</value>
+    </labels>
+    <labels>
+        <fullName>Vendors_notified_rejection_advancement_success_title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Vendors notified rejection advancement success title</shortDescription>
+        <value>Vendors and hiring manager notified!</value>
+    </labels>
+    <labels>
+        <fullName>Window_title_review_component</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Window_title_review_component</shortDescription>
+        <value>Reject/advance applications</value>
+    </labels>
+    <labels>
+        <fullName>Yes</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Yes</shortDescription>
+        <value>Yes</value>
+    </labels>
+    <labels>
+        <fullName>fullName</fullName>
+        <categories>fullName</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>fullName</shortDescription>
+        <value>fullName</value>
+    </labels>
+    <labels>
+        <fullName>lb_create_new_position</fullName>
+        <categories>Lwc, newPositionButton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_create_new_position</shortDescription>
+        <value>Create new position</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Add_files</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Add files</shortDescription>
+        <value>Add files</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Amount</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Amount</shortDescription>
+        <value>Amount</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Attachment</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Attachment</shortDescription>
+        <value>Attachment</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Cancel</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Client</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Client</shortDescription>
+        <value>Client</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Close</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Close</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Comment</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Comment</shortDescription>
+        <value>Comment</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Date</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Date</shortDescription>
+        <value>Date</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Distribute_to_vendors_missing_fields_error</fullName>
+        <categories>LWC vendorsByCategory</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Distribute to vendors missing fields error</shortDescription>
+        <value>Please check if &quot;numbers of hires&quot; and &quot;deadline candidate submission&quot; are both filled</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Entries</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Entries</shortDescription>
+        <value>Entries</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Expenses</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Expenses</shortDescription>
+        <value>Expenses</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Export_to_PDF</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Export to PDF</shortDescription>
+        <value>Export to PDF</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Files_attached</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_Files_attached</shortDescription>
+        <value>Files attached:</value>
+    </labels>
+    <labels>
+        <fullName>lbl_General</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_General</shortDescription>
+        <value>General</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Maxhourslessthanminhours</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_Maxhourslessthanminhours</shortDescription>
+        <value>The maximum hours per week are smaller than the minimum hours</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Minutes</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Minutes</shortDescription>
+        <value>Minutes</value>
+    </labels>
+    <labels>
+        <fullName>lbl_New</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl New</shortDescription>
+        <value>New</value>
+    </labels>
+    <labels>
+        <fullName>lbl_New_candidate</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl New candidate</shortDescription>
+        <value>New candidate</value>
+    </labels>
+    <labels>
+        <fullName>lbl_New_expense</fullName>
+        <categories>LWC timesheetRegistration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl New expense</shortDescription>
+        <value>New expense</value>
+    </labels>
+    <labels>
+        <fullName>lbl_New_position</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl New position</shortDescription>
+        <value>New position</value>
+    </labels>
+    <labels>
+        <fullName>lbl_No_outstanding_tasks</fullName>
+        <categories>LWC oustandingTasks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl No outstanding tasks</shortDescription>
+        <value>No outstanding tasks</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Outstanding_tasks</fullName>
+        <categories>LWC outstandingTasks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Outstanding tasks</shortDescription>
+        <value>Outstanding tasks</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Position</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Position</shortDescription>
+        <value>Position</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Professional</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Professional</shortDescription>
+        <value>Professional</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Rate_Percentage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Rate Percentage</shortDescription>
+        <value>Rate percentage</value>
+    </labels>
+    <labels>
+        <fullName>lbl_ReasonRejectionHM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reason rejection HM</shortDescription>
+        <value>The following reason for rejection has been given by the hiring manager</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Recently_distributed</fullName>
+        <categories>LWC vendorsByCategory</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Recently distributed</shortDescription>
+        <value>Recently distributed</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Remove_attachment</fullName>
+        <categories>LWC timesheetRegistration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Remove attachment</shortDescription>
+        <value>Remove attachment</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Reopen</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Reopen</shortDescription>
+        <value>Reopen</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Save_and_submit</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Save and submit</shortDescription>
+        <value>Save and submit</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Select_An_Option</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Select An Option</shortDescription>
+        <value>Select an option</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Submit_timesheet</fullName>
+        <categories>LWC timesheetRegistration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Submit timesheet</shortDescription>
+        <value>Submit timesheet</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Time_Registration</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Time Registration</shortDescription>
+        <value>Time registration</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Timesheet_summary</fullName>
+        <categories>Visualforce TimesheetExport</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Timesheet summary</shortDescription>
+        <value>Timesheet summary</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Travel_expenses</fullName>
+        <categories>LWC timesheetRegistration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Travel expenses</shortDescription>
+        <value>Travel expenses</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Type</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Type</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Upload_resume</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Upload resume</shortDescription>
+        <value>Upload resume</value>
+    </labels>
+    <labels>
+        <fullName>lbl_Uploaded_attachment</fullName>
+        <categories>LWC timesheetRegistration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Uploaded attachment</shortDescription>
+        <value>Uploaded attachment</value>
+    </labels>
+    <labels>
+        <fullName>lbl_actions</fullName>
+        <categories>lwc, portalButtons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_actions</shortDescription>
+        <value>Actions</value>
+    </labels>
+    <labels>
+        <fullName>lbl_add_message_to_hiring_desk</fullName>
+        <categories>LWC, newPositionButton, approvals</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_add_message_to_hiring_desk</shortDescription>
+        <value>Add message for hiring desk</value>
+    </labels>
+    <labels>
+        <fullName>lbl_additional_candidate_info</fullName>
+        <categories>Flow, Additional_candidate_info_and_creation_placement_professional</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_additional_candidate_info</shortDescription>
+        <value>Additional information for placement</value>
+    </labels>
+    <labels>
+        <fullName>lbl_additionalbenefits</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_additionalbenefits</shortDescription>
+        <value>Additional benefits</value>
+    </labels>
+    <labels>
+        <fullName>lbl_additionalcommunicationHDtoV</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_additionalcommunicationHDtoV</shortDescription>
+        <value>Is there any additional information you would like to share with the vendor regarding this rejection?</value>
+    </labels>
+    <labels>
+        <fullName>lbl_additionalinformation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_additionalinformation</shortDescription>
+        <value>Additional information</value>
+    </labels>
+    <labels>
+        <fullName>lbl_alwaysopen</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_alwaysopen</shortDescription>
+        <value>Always open</value>
+    </labels>
+    <labels>
+        <fullName>lbl_applicationnotincorrectstatusforwithdrawal</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_applicationnotincorrectstatusforwithdrawal</shortDescription>
+        <value>The application is not in a status in which the candidate can be withdrawn.</value>
+    </labels>
+    <labels>
+        <fullName>lbl_approve_timesheet_Subject</fullName>
+        <categories>Task</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_approve_timesheet_Subject</shortDescription>
+        <value>Approve timesheet</value>
+    </labels>
+    <labels>
+        <fullName>lbl_approver</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_approver</shortDescription>
+        <value>Approver</value>
+    </labels>
+    <labels>
+        <fullName>lbl_areyousureyouwanttoend</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_areyousureyouwanttoend</shortDescription>
+        <value>Are you sure you want to end this placement?
+Press the blue button if so.</value>
+    </labels>
+    <labels>
+        <fullName>lbl_attachments</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_attachments</shortDescription>
+        <value>Attachments</value>
+    </labels>
+    <labels>
+        <fullName>lbl_availablefrom</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_availablefrom</shortDescription>
+        <value>Available from</value>
+    </labels>
+    <labels>
+        <fullName>lbl_button_label_save</fullName>
+        <categories>LWC</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>button label save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>lbl_candidate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_candidate</shortDescription>
+        <value>Candidate</value>
+    </labels>
+    <labels>
+        <fullName>lbl_candidate_email</fullName>
+        <categories>Flow newApplication</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_candidate_email</shortDescription>
+        <value>Candidate email</value>
+    </labels>
+    <labels>
+        <fullName>lbl_candidate_first_name</fullName>
+        <categories>Flow newApplication</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_candidate_first_name</shortDescription>
+        <value>Candidate first name</value>
+    </labels>
+    <labels>
+        <fullName>lbl_candidate_last_name</fullName>
+        <categories>Flow newApplication</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_candidate_last_name</shortDescription>
+        <value>Candidate last name</value>
+    </labels>
+    <labels>
+        <fullName>lbl_candidate_phone_number</fullName>
+        <categories>Flow newApplication</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_candidate_phone_number</shortDescription>
+        <value>Candidate phone number</value>
+    </labels>
+    <labels>
+        <fullName>lbl_candidate_rejected_Subject</fullName>
+        <categories>Task</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_candidate_rejected_Subject</shortDescription>
+        <value>Candidate rejected by hiring manager:</value>
+    </labels>
+    <labels>
+        <fullName>lbl_candidate_submission_deadline</fullName>
+        <categories>Flow newPosition</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_candidate_submission_deadline</shortDescription>
+        <value>Candidate submission deadline</value>
+    </labels>
+    <labels>
+        <fullName>lbl_clarification</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl clarification</shortDescription>
+        <value>Is there any additional information you want to send to the hiring desk regarding this intake?</value>
+    </labels>
+    <labels>
+        <fullName>lbl_clarification_edit_modal_header</fullName>
+        <categories>LWC</categories>
+        <language>nl_NL</language>
+        <protected>false</protected>
+        <shortDescription>lbl_clarification_edit_modal_header</shortDescription>
+        <value>Edit clarification for rejection/advancement</value>
+    </labels>
+    <labels>
+        <fullName>lbl_clear</fullName>
+        <categories>LWC</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_clear</shortDescription>
+        <value>Clear</value>
+    </labels>
+    <labels>
+        <fullName>lbl_comments_on_second_intake</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Comments on second intake</shortDescription>
+        <value>Comments on last intake</value>
+    </labels>
+    <labels>
+        <fullName>lbl_compensation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_compensation</shortDescription>
+        <value>Financial</value>
+    </labels>
+    <labels>
+        <fullName>lbl_complete</fullName>
+        <categories>LWC, general, button</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_complete</shortDescription>
+        <value>Complete</value>
+    </labels>
+    <labels>
+        <fullName>lbl_confirm</fullName>
+        <categories>LWC, general</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_confirm</shortDescription>
+        <value>Confirm</value>
+    </labels>
+    <labels>
+        <fullName>lbl_confirm_position_creation</fullName>
+        <categories>LWC, newPositionPreview</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_confirm_position_creation</shortDescription>
+        <value>Confirm new position</value>
+    </labels>
+    <labels>
+        <fullName>lbl_contact_info_needed</fullName>
+        <categories>Apex, Error, PlacementFunctions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_contact_info_needed</shortDescription>
+        <value>Cannot create a placement without candidate&apos;s email and phone number</value>
+    </labels>
+    <labels>
+        <fullName>lbl_contractextensions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_contractextensions</shortDescription>
+        <value>Contract extensions</value>
+    </labels>
+    <labels>
+        <fullName>lbl_correctinformation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_correctinformation</shortDescription>
+        <value>This date is correct for this extension</value>
+    </labels>
+    <labels>
+        <fullName>lbl_country</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_country</shortDescription>
+        <value>Country</value>
+    </labels>
+    <labels>
+        <fullName>lbl_create_new_position</fullName>
+        <categories>Lwc, newPositionButton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_create_new_position</shortDescription>
+        <value>Create new position</value>
+    </labels>
+    <labels>
+        <fullName>lbl_create_new_template</fullName>
+        <categories>LWC, newPositionTemplateButton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_create_new_template</shortDescription>
+        <value>Create new template</value>
+    </labels>
+    <labels>
+        <fullName>lbl_dataonnewcontract</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_dataonnewcontract</shortDescription>
+        <value>The following data has been requested for the contract extension</value>
+    </labels>
+    <labels>
+        <fullName>lbl_date_and_time_second_intake</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Date and time last intake</shortDescription>
+        <value>Date and time last intake</value>
+    </labels>
+    <labels>
+        <fullName>lbl_dateunknown</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_dateunknown</shortDescription>
+        <value>date unknown</value>
+    </labels>
+    <labels>
+        <fullName>lbl_day</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_day</shortDescription>
+        <value>day</value>
+    </labels>
+    <labels>
+        <fullName>lbl_days</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_days</shortDescription>
+        <value>days</value>
+    </labels>
+    <labels>
+        <fullName>lbl_deadline</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_deadline</shortDescription>
+        <value>Deadline</value>
+    </labels>
+    <labels>
+        <fullName>lbl_department</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_department</shortDescription>
+        <value>Department</value>
+    </labels>
+    <labels>
+        <fullName>lbl_documentation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_documentation</shortDescription>
+        <value>Documentation</value>
+    </labels>
+    <labels>
+        <fullName>lbl_dossier_item</fullName>
+        <categories>LWC dossierTaskComponent</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl dossier item</shortDescription>
+        <value>Dossier item</value>
+    </labels>
+    <labels>
+        <fullName>lbl_duplicate</fullName>
+        <categories>LWC, general, button</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_duplicate</shortDescription>
+        <value>Duplicate</value>
+    </labels>
+    <labels>
+        <fullName>lbl_duration</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_duration</shortDescription>
+        <value>Duration</value>
+    </labels>
+    <labels>
+        <fullName>lbl_durationextension</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_durationextension</shortDescription>
+        <value>Duration extension</value>
+    </labels>
+    <labels>
+        <fullName>lbl_edit</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_edit</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>lbl_education</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_education</shortDescription>
+        <value>Education or experience</value>
+    </labels>
+    <labels>
+        <fullName>lbl_end</fullName>
+        <categories>LWC, portalButtons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_end</shortDescription>
+        <value>Terminate</value>
+    </labels>
+    <labels>
+        <fullName>lbl_enddate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_enddate</shortDescription>
+        <value>End date</value>
+    </labels>
+    <labels>
+        <fullName>lbl_enddatenotokay</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_enddatenotokay</shortDescription>
+        <value>End date is smaller than start date</value>
+    </labels>
+    <labels>
+        <fullName>lbl_enddatesmallerthantodayorearlierthanstart</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_enddatesmallerthantodayorearlierthanstart</shortDescription>
+        <value>End date is earlier than today or the startdate</value>
+    </labels>
+    <labels>
+        <fullName>lbl_estimatedspent</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_estimatedspent</shortDescription>
+        <value>Estimated spent</value>
+    </labels>
+    <labels>
+        <fullName>lbl_evaluate_timesheet_Subject</fullName>
+        <categories>Task</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_evaluate_timesheet_Subject</shortDescription>
+        <value>Evaluate timesheet</value>
+    </labels>
+    <labels>
+        <fullName>lbl_expectedintake</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Talks about expected intake date</shortDescription>
+        <value>Is there an expected intake date? Leave empty if not.</value>
+    </labels>
+    <labels>
+        <fullName>lbl_explainthereason</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_explainthereason</shortDescription>
+        <value>In this field you can explain the reason :</value>
+    </labels>
+    <labels>
+        <fullName>lbl_extend</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_extend</shortDescription>
+        <value>extend</value>
+    </labels>
+    <labels>
+        <fullName>lbl_extension</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_extension</shortDescription>
+        <value>The automatically calculated start date and end date for the extension are :</value>
+    </labels>
+    <labels>
+        <fullName>lbl_file_upload_success</fullName>
+        <categories>LWC dossierTaskComponent</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_file_upload_success</shortDescription>
+        <value>File successfully uploaded</value>
+    </labels>
+    <labels>
+        <fullName>lbl_file_upload_title</fullName>
+        <categories>LWC dossierTaskComponent</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_file_upload_title</shortDescription>
+        <value>File upload</value>
+    </labels>
+    <labels>
+        <fullName>lbl_files</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_files</shortDescription>
+        <value>Files</value>
+    </labels>
+    <labels>
+        <fullName>lbl_first_intake_comments</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Intake comments</shortDescription>
+        <value>Intake comments</value>
+    </labels>
+    <labels>
+        <fullName>lbl_first_intake_date</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>First intake date</shortDescription>
+        <value>Current intake date and time</value>
+    </labels>
+    <labels>
+        <fullName>lbl_functiontitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_functiontitle</shortDescription>
+        <value>Function title</value>
+    </labels>
+    <labels>
+        <fullName>lbl_here</fullName>
+        <categories>LWC, general</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_here</shortDescription>
+        <value>here</value>
+    </labels>
+    <labels>
+        <fullName>lbl_hiring_desk_placement_end_Subject</fullName>
+        <categories>Task</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_hiring_desk_placement_end_Subject</shortDescription>
+        <value>Placement end</value>
+    </labels>
+    <labels>
+        <fullName>lbl_hiring_desk_placement_extend_Subject</fullName>
+        <categories>Task</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_hiring_desk_placement_extend_Subject</shortDescription>
+        <value>Placement extend</value>
+    </labels>
+    <labels>
+        <fullName>lbl_hiring_manager_placement_end_Subject</fullName>
+        <categories>Task</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_hiring_manager_placement_end_Subject</shortDescription>
+        <value>Placement ended</value>
+    </labels>
+    <labels>
+        <fullName>lbl_hiring_manager_placement_extend_Subject</fullName>
+        <categories>Task</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_hiring_manager_placement_extend_Subject</shortDescription>
+        <value>Placement extended</value>
+    </labels>
+    <labels>
+        <fullName>lbl_hiring_manager_position_rejected_Subject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_hiring_manager_position_rejected_Subject</shortDescription>
+        <value>Position rejected</value>
+    </labels>
+    <labels>
+        <fullName>lbl_hiringmanager</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_hiringmanager</shortDescription>
+        <value>Hiring manager</value>
+    </labels>
+    <labels>
+        <fullName>lbl_hourlyrate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_hourlyrate</shortDescription>
+        <value>Hourly rate</value>
+    </labels>
+    <labels>
+        <fullName>lbl_hourlyratehelp</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_hourlyratehelp</shortDescription>
+        <value>This is regarding a desired hourly rate</value>
+    </labels>
+    <labels>
+        <fullName>lbl_hours</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_hours</shortDescription>
+        <value>Hours</value>
+    </labels>
+    <labels>
+        <fullName>lbl_how_many_intakes</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>How many intakes?</shortDescription>
+        <value>How many intakes?</value>
+    </labels>
+    <labels>
+        <fullName>lbl_howwillintakeintakeplace</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_howwillintakeintakeplace</shortDescription>
+        <value>How will the intake take place?</value>
+    </labels>
+    <labels>
+        <fullName>lbl_info_request_sent</fullName>
+        <categories>LWC, approvePlacementRequest, Toast</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_info_request_sent</shortDescription>
+        <value>Sent request for additional information to vendor</value>
+    </labels>
+    <labels>
+        <fullName>lbl_info_request_sent_error</fullName>
+        <categories>LWC, approvePlacementRequest, Toast</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_info_request_sent_error</shortDescription>
+        <value>Error approving placement request:</value>
+    </labels>
+    <labels>
+        <fullName>lbl_information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_information</shortDescription>
+        <value>Information</value>
+    </labels>
+    <labels>
+        <fullName>lbl_intake_planned_Subject</fullName>
+        <categories>Task</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_intake_planned_Subject</shortDescription>
+        <value>Intake</value>
+    </labels>
+    <labels>
+        <fullName>lbl_internal</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_internal</shortDescription>
+        <value>Intern</value>
+    </labels>
+    <labels>
+        <fullName>lbl_internaldeadline</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_internaldeadline</shortDescription>
+        <value>Internal deadline</value>
+    </labels>
+    <labels>
+        <fullName>lbl_internalinformation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_internalinformation</shortDescription>
+        <value>Internal information</value>
+    </labels>
+    <labels>
+        <fullName>lbl_internalrecruiter</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_internalrecruiter</shortDescription>
+        <value>Internal recruiter</value>
+    </labels>
+    <labels>
+        <fullName>lbl_language</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_language</shortDescription>
+        <value>Language</value>
+    </labels>
+    <labels>
+        <fullName>lbl_leaveemptyifunchanged</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_leaveemptyifunchanged</shortDescription>
+        <value>Leave emtpy if unchanged</value>
+    </labels>
+    <labels>
+        <fullName>lbl_location</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_location</shortDescription>
+        <value>Location</value>
+    </labels>
+    <labels>
+        <fullName>lbl_mailsend</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MailSend</shortDescription>
+        <value>The mail has been sent</value>
+    </labels>
+    <labels>
+        <fullName>lbl_max_number_of_applications_message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_max_number_of_applications_message</shortDescription>
+        <value>Unfortunately, you&apos;ve reached the maximum number of applications for this position. Please withdraw an application or contact the hiring desk.</value>
+    </labels>
+    <labels>
+        <fullName>lbl_maxhourlyrate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_maxhourlyrate</shortDescription>
+        <value>Max hourly rate</value>
+    </labels>
+    <labels>
+        <fullName>lbl_maxhoursperweek</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_maxhoursperweek</shortDescription>
+        <value>Max hours per week</value>
+    </labels>
+    <labels>
+        <fullName>lbl_maxnumber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_maxnumber</shortDescription>
+        <value>Max number of applicants per supplier</value>
+    </labels>
+    <labels>
+        <fullName>lbl_maxsalary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_maxsalary</shortDescription>
+        <value>Max salaris</value>
+    </labels>
+    <labels>
+        <fullName>lbl_minhoursperweek</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_minhoursperweek</shortDescription>
+        <value>Min hours per week</value>
+    </labels>
+    <labels>
+        <fullName>lbl_minsalary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_minsalary</shortDescription>
+        <value>Min salary</value>
+    </labels>
+    <labels>
+        <fullName>lbl_month</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_month</shortDescription>
+        <value>month</value>
+    </labels>
+    <labels>
+        <fullName>lbl_months</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_months</shortDescription>
+        <value>months</value>
+    </labels>
+    <labels>
+        <fullName>lbl_nameprofessional</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_nameprofessional</shortDescription>
+        <value>Name of professional</value>
+    </labels>
+    <labels>
+        <fullName>lbl_new_application_Subject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_new_application_Subject</shortDescription>
+        <value>New application</value>
+    </labels>
+    <labels>
+        <fullName>lbl_new_application_hiring_manager_Subject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_new_application_hiring_manager_Subject</shortDescription>
+        <value>New application to evaluate:</value>
+    </labels>
+    <labels>
+        <fullName>lbl_new_placement_Subject</fullName>
+        <categories>Task</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_new_placement_Subject</shortDescription>
+        <value>Complete placement</value>
+    </labels>
+    <labels>
+        <fullName>lbl_new_position_Subject</fullName>
+        <categories>Task</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_new_position_Subject</shortDescription>
+        <value>New position to process</value>
+    </labels>
+    <labels>
+        <fullName>lbl_new_position_for_vendor_Subject</fullName>
+        <categories>Task</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_new_position_for_vendor_Subject</shortDescription>
+        <value>New position</value>
+    </labels>
+    <labels>
+        <fullName>lbl_new_record</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_new_record</shortDescription>
+        <value>New record</value>
+    </labels>
+    <labels>
+        <fullName>lbl_new_template</fullName>
+        <categories>LWC, newPositionTemplateButton</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_new_template</shortDescription>
+        <value>New template</value>
+    </labels>
+    <labels>
+        <fullName>lbl_newenddate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_newenddate</shortDescription>
+        <value>End date that is on the extension</value>
+    </labels>
+    <labels>
+        <fullName>lbl_newhours</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_newhours</shortDescription>
+        <value>Hours that are on the extension :</value>
+    </labels>
+    <labels>
+        <fullName>lbl_newrate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_newrate</shortDescription>
+        <value>Rate that is on extension :</value>
+    </labels>
+    <labels>
+        <fullName>lbl_newstartdate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_newstartdate</shortDescription>
+        <value>Start date of the extension</value>
+    </labels>
+    <labels>
+        <fullName>lbl_newtemplateinstructions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_newtemplateinstructions</shortDescription>
+        <value>Do you want to base your new template on an already existing one?
+If so fill in the template here, if not leave empty</value>
+    </labels>
+    <labels>
+        <fullName>lbl_no_VPA_found</fullName>
+        <categories>Flow newApplication</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_no_VPA_found</shortDescription>
+        <value>Unfortunately, we couldn&apos;t find a connection between you and this position. Please contact the hiring desk.</value>
+    </labels>
+    <labels>
+        <fullName>lbl_numberofhires</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_numberofhires</shortDescription>
+        <value>Amount of hires</value>
+    </labels>
+    <labels>
+        <fullName>lbl_optiontoextent</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_optiontoextent</shortDescription>
+        <value>Option to extent</value>
+    </labels>
+    <labels>
+        <fullName>lbl_optiontoextentfalse</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_optiontoextentfalse</shortDescription>
+        <value>There is no option to extend</value>
+    </labels>
+    <labels>
+        <fullName>lbl_optiontoextenttrue</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_optiontoextenttrue</shortDescription>
+        <value>There is an option to extend</value>
+    </labels>
+    <labels>
+        <fullName>lbl_otherreason</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_otherreason</shortDescription>
+        <value>Other reason</value>
+    </labels>
+    <labels>
+        <fullName>lbl_permfalse</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_permfalse</shortDescription>
+        <value>Permanent employment is not possible</value>
+    </labels>
+    <labels>
+        <fullName>lbl_permpossible</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_permpossible</shortDescription>
+        <value>Permanent employment is possible</value>
+    </labels>
+    <labels>
+        <fullName>lbl_placement_details</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_placement_details</shortDescription>
+        <value>Details</value>
+    </labels>
+    <labels>
+        <fullName>lbl_placement_request_Subject</fullName>
+        <categories>Lwc, portalButtons, TaskHandler</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_placement_request_Subject</shortDescription>
+        <value>New placement requested</value>
+    </labels>
+    <labels>
+        <fullName>lbl_placementended</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_placementended</shortDescription>
+        <value>Placement succesfully ended</value>
+    </labels>
+    <labels>
+        <fullName>lbl_plan_intake_Subject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_plan_intake_Subject</shortDescription>
+        <value>Plan intake for</value>
+    </labels>
+    <labels>
+        <fullName>lbl_plannedintake</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Planned intake text</shortDescription>
+        <value>You are about to change this application to an intake.</value>
+    </labels>
+    <labels>
+        <fullName>lbl_position_not_closeable_error</fullName>
+        <categories>LWC, closePosition</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_position_not_closeable_error</shortDescription>
+        <value>Cannot close a position with active applications associated with it! Please make sure all applicants are either placed or rejected.</value>
+    </labels>
+    <labels>
+        <fullName>lbl_positionrejected</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_positionrejected</shortDescription>
+        <value>This position has been rejected by the hiring desk. Open it for further details.</value>
+    </labels>
+    <labels>
+        <fullName>lbl_possiblepermanentemployment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_possiblepermanentemployment</shortDescription>
+        <value>Possibility of permanent employment</value>
+    </labels>
+    <labels>
+        <fullName>lbl_potentialintake</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Potential intake date</shortDescription>
+        <value>Are you sure you want to create an intake?</value>
+    </labels>
+    <labels>
+        <fullName>lbl_preferred_candidate_explanation</fullName>
+        <categories>Flow newPosition</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_preferred_candidate_explanation</shortDescription>
+        <value>After completing this form, you will be able to enter a preferred candidate. Please consider that a CV is required to upload a preferred candidate.</value>
+    </labels>
+    <labels>
+        <fullName>lbl_preferred_candidate_present</fullName>
+        <categories>Flow newPosition</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_preferred_candidate_present</shortDescription>
+        <value>I will supply a preferred candidate for this position.</value>
+    </labels>
+    <labels>
+        <fullName>lbl_pressbluebutton</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_pressbluebutton</shortDescription>
+        <value>Press the blue button to confirm your action.</value>
+    </labels>
+    <labels>
+        <fullName>lbl_professional_provide_information_Subject</fullName>
+        <categories>Task</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_professional_provide_information_Subject</shortDescription>
+        <value>Provide information</value>
+    </labels>
+    <labels>
+        <fullName>lbl_provide_info</fullName>
+        <categories>portalButtons, LWC</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_provide_info</shortDescription>
+        <value>Provide contact info</value>
+    </labels>
+    <labels>
+        <fullName>lbl_rate</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_rate</shortDescription>
+        <value>Rate</value>
+    </labels>
+    <labels>
+        <fullName>lbl_rate_percentage_access</fullName>
+        <categories>LWC</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_rate_percentage_access</shortDescription>
+        <value>Rate percentage access</value>
+    </labels>
+    <labels>
+        <fullName>lbl_rate_percentage_available</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_rate_percentage_available</shortDescription>
+        <value>Available</value>
+    </labels>
+    <labels>
+        <fullName>lbl_rate_percentage_header</fullName>
+        <categories>LWC</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_rate_percentage_header</shortDescription>
+        <value>Rate percentages</value>
+    </labels>
+    <labels>
+        <fullName>lbl_rate_percentage_select_options</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_rate_percentage_select_options</shortDescription>
+        <value>Select options</value>
+    </labels>
+    <labels>
+        <fullName>lbl_rate_percentage_selected</fullName>
+        <categories>LWC</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_rate_percentage_selected</shortDescription>
+        <value>Selected</value>
+    </labels>
+    <labels>
+        <fullName>lbl_reasonclarificationempty</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_reasonclarificationempty</shortDescription>
+        <value>Clarication is empty</value>
+    </labels>
+    <labels>
+        <fullName>lbl_reasonforopening</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_reasonforopening</shortDescription>
+        <value>Reason for opening</value>
+    </labels>
+    <labels>
+        <fullName>lbl_reasonrejection</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>reason rejection</shortDescription>
+        <value>For what reason has this application been rejected?</value>
+    </labels>
+    <labels>
+        <fullName>lbl_reasonrejectionpicklist</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reason rejecition picklist</shortDescription>
+        <value>What is the reason for rejecting this application?</value>
+    </labels>
+    <labels>
+        <fullName>lbl_reasonwithdrawal</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_reasonwithdrawal</shortDescription>
+        <value>What is the reason for the withdrawal?</value>
+    </labels>
+    <labels>
+        <fullName>lbl_recallReason</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_recallReason</shortDescription>
+        <value>Recall reason</value>
+    </labels>
+    <labels>
+        <fullName>lbl_recallreasonother</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_recallreasonother</shortDescription>
+        <value>Reason clarification :</value>
+    </labels>
+    <labels>
+        <fullName>lbl_record_created</fullName>
+        <categories>LWC, general</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_record_created</shortDescription>
+        <value>Record created!</value>
+    </labels>
+    <labels>
+        <fullName>lbl_record_created_submitted</fullName>
+        <categories>LWC, general</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_record_created_submitted</shortDescription>
+        <value>Record created and submitted!</value>
+    </labels>
+    <labels>
+        <fullName>lbl_record_submitted</fullName>
+        <categories>LWC, general</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_record_submitted</shortDescription>
+        <value>Record submitted!</value>
+    </labels>
+    <labels>
+        <fullName>lbl_region</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_region</shortDescription>
+        <value>Region</value>
+    </labels>
+    <labels>
+        <fullName>lbl_requirements</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_requirements</shortDescription>
+        <value>Requirements</value>
+    </labels>
+    <labels>
+        <fullName>lbl_resendPosition</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_resendPosition</shortDescription>
+        <value>The position has been succesfully resend for approval</value>
+    </labels>
+    <labels>
+        <fullName>lbl_return</fullName>
+        <categories>LWC, general</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_return</shortDescription>
+        <value>Return</value>
+    </labels>
+    <labels>
+        <fullName>lbl_salary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_salary</shortDescription>
+        <value>Salary</value>
+    </labels>
+    <labels>
+        <fullName>lbl_save</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>lbl_saveas</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_saveas</shortDescription>
+        <value>Save as</value>
+    </labels>
+    <labels>
+        <fullName>lbl_saveasconcept</fullName>
+        <language>nl_NL</language>
+        <protected>false</protected>
+        <shortDescription>lbl_saveasconcept</shortDescription>
+        <value>Save as a concept</value>
+    </labels>
+    <labels>
+        <fullName>lbl_saveasposandtemp</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_saveasposandtemp</shortDescription>
+        <value>Save as position and template</value>
+    </labels>
+    <labels>
+        <fullName>lbl_saveasposition</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_saveasposition</shortDescription>
+        <value>Save as position</value>
+    </labels>
+    <labels>
+        <fullName>lbl_saveastemplate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_saveastemplate</shortDescription>
+        <value>Save as template</value>
+    </labels>
+    <labels>
+        <fullName>lbl_scale</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_scale</shortDescription>
+        <value>Scale</value>
+    </labels>
+    <labels>
+        <fullName>lbl_see_it</fullName>
+        <categories>LWC, general</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_see_it</shortDescription>
+        <value>See it</value>
+    </labels>
+    <labels>
+        <fullName>lbl_select_a_candidate</fullName>
+        <categories>LWC</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_select_a_candidate</shortDescription>
+        <value>Select a candidate..</value>
+    </labels>
+    <labels>
+        <fullName>lbl_showtext</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_showtext</shortDescription>
+        <value>Show position text</value>
+    </labels>
+    <labels>
+        <fullName>lbl_startdate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_startdate</shortDescription>
+        <value>Startdate</value>
+    </labels>
+    <labels>
+        <fullName>lbl_startdatenotokay</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_startdatenotokay</shortDescription>
+        <value>Start date is earlier than the end date</value>
+    </labels>
+    <labels>
+        <fullName>lbl_startdatesmallerthantoday</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_startdatesmallerthantoday</shortDescription>
+        <value>Startdate is earlier than today or earlier than the enddate</value>
+    </labels>
+    <labels>
+        <fullName>lbl_status</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_status</shortDescription>
+        <value>Status</value>
+    </labels>
+    <labels>
+        <fullName>lbl_submit_candidates_Subject</fullName>
+        <categories>Task</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_submit_candidates_Subject</shortDescription>
+        <value>Propose candidates for</value>
+    </labels>
+    <labels>
+        <fullName>lbl_success</fullName>
+        <categories>LWC, Toast</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>lbl_suminstructions</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_suminstructions</shortDescription>
+        <value>You are about to submit the following position:</value>
+    </labels>
+    <labels>
+        <fullName>lbl_sumtemplate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_sumtemplate</shortDescription>
+        <value>You are about to save this template</value>
+    </labels>
+    <labels>
+        <fullName>lbl_supplier</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_supplier</shortDescription>
+        <value>Supplier</value>
+    </labels>
+    <labels>
+        <fullName>lbl_template_placeholder</fullName>
+        <categories>Lwc, newPositionForm</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_template_placeholder</shortDescription>
+        <value>Select a template...</value>
+    </labels>
+    <labels>
+        <fullName>lbl_template_selector_label</fullName>
+        <categories>Lwc, newPositionForm</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_template_selector_label</shortDescription>
+        <value>Template (optional)</value>
+    </labels>
+    <labels>
+        <fullName>lbl_templateinstructions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_templateinstructions</shortDescription>
+        <value>Search for a template here in case you want to use one. Leave this field empty if no template is to be used.</value>
+    </labels>
+    <labels>
+        <fullName>lbl_text</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_text</shortDescription>
+        <value>Text</value>
+    </labels>
+    <labels>
+        <fullName>lbl_textishidden</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_textishidden</shortDescription>
+        <value>Text is hidden</value>
+    </labels>
+    <labels>
+        <fullName>lbl_textisshown</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_textisshown</shortDescription>
+        <value>Text is shown</value>
+    </labels>
+    <labels>
+        <fullName>lbl_timesheet_deadline_Subject</fullName>
+        <categories>Task</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_timesheet_deadline_Subject</shortDescription>
+        <value>Timesheet deadline</value>
+    </labels>
+    <labels>
+        <fullName>lbl_typeofapplication</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_typeofapplication</shortDescription>
+        <value>Type of application</value>
+    </labels>
+    <labels>
+        <fullName>lbl_upload</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl upload</shortDescription>
+        <value>Upload</value>
+    </labels>
+    <labels>
+        <fullName>lbl_uploadfiles</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl Upload files</shortDescription>
+        <value>Upload files</value>
+    </labels>
+    <labels>
+        <fullName>lbl_use_existing_candidate</fullName>
+        <categories>Flow newApplication</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_use_existing_candidate</shortDescription>
+        <value>Use existing candidate?</value>
+    </labels>
+    <labels>
+        <fullName>lbl_use_existing_candidate_no</fullName>
+        <categories>Flow newApplication</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_use_existing_candidate_no</shortDescription>
+        <value>No, create a new candidate.</value>
+    </labels>
+    <labels>
+        <fullName>lbl_use_existing_candidate_yes</fullName>
+        <categories>Flow newApplication</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_use_existing_candidate_yes</shortDescription>
+        <value>Yes</value>
+    </labels>
+    <labels>
+        <fullName>lbl_vendor_provide_professional_information_Subject</fullName>
+        <categories>Task</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_vendor_provide_professional_information_Subject</shortDescription>
+        <value>Provide information about professional</value>
+    </labels>
+    <labels>
+        <fullName>lbl_whenistheintake</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_whenistheintake</shortDescription>
+        <value>When is the intake?</value>
+    </labels>
+    <labels>
+        <fullName>lbl_withdraw</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_withdraw</shortDescription>
+        <value>You are about to withdraw a candidate.</value>
+    </labels>
+    <labels>
+        <fullName>lbl_workform</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_workform</shortDescription>
+        <value>Work form</value>
+    </labels>
+    <labels>
+        <fullName>lbl_year</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_year</shortDescription>
+        <value>year</value>
+    </labels>
+    <labels>
+        <fullName>lbl_years</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lbl_years</shortDescription>
+        <value>years</value>
+    </labels>
+    <labels>
+        <fullName>toast_header_placement_created</fullName>
+        <categories>Toast</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>toast_header_placement_created</shortDescription>
+        <value>Placement created</value>
+    </labels>
+</CustomLabels>

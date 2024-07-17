@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Api_field_name__c</fullName>
+    <description>Contains full API name of field (aka. Application__c.Contact__r.Name)</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Supply full API name of field for which you want the values to show in this columns (ex: Application__c.Contact__r.Name)</inlineHelpText>
+    <label>Api field name</label>
+    <length>250</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

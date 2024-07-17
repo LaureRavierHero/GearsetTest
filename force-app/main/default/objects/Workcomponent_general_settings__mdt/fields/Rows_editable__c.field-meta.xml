@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rows_editable__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Determines whether any rows in component are editable. If you want conditional editability, use row editable API field name.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Determines whether any rows in component are editable. If you want conditional editability, use row editable API field name.</inlineHelpText>
+    <label>Rows editable</label>
+    <type>Checkbox</type>
+</CustomField>

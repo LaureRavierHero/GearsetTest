@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number__c</fullName>
+    <description>Identifier for filter, used in filter logic formula on Portal button visbility record. You have to fill this manually and make sure it is unique, because we can&apos;t have triggers on custom metadata (sorry). Numbers higher than 9 are not supported because I wrote the parsing lazily.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Identifier for filter, used in filter logic formula on Portal button visbility record. You have to fill this manually and make sure it is unique, because we can&apos;t have triggers on custom metadata (sorry). Numbers higher than 9 are not supported because I wrote the parsing lazily.</inlineHelpText>
+    <label>Number</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
