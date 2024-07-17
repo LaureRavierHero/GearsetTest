@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Professional permissions</label>
+    <mutingPermissionSets>Professional_permissions_Muted</mutingPermissionSets>
+    <permissionSets>Basic_account_permission_set</permissionSets>
+    <permissionSets>Basic_application_process_permissions</permissionSets>
+    <permissionSets>Basic_contacts_permissions</permissionSets>
+    <permissionSets>Basic_dossier_access</permissionSets>
+    <permissionSets>Basic_placement_permissions</permissionSets>
+    <permissionSets>Basic_task_permissions</permissionSets>
+    <permissionSets>Basic_timesheet_permissions</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

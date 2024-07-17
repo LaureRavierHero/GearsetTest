@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Admin permissions</label>
+    <permissionSets>Admin_account_permissions</permissionSets>
+    <permissionSets>Admin_application_process_permissions</permissionSets>
+    <permissionSets>Admin_contacts_permissions</permissionSets>
+    <permissionSets>Admin_mailtemplates_permission_set</permissionSets>
+    <permissionSets>Admin_user_permissions</permissionSets>
+    <permissionSets>sf_devops_InitializeEnvironments</permissionSets>
+    <permissionSets>sf_devops_NamedCredentials</permissionSets>
+    <permissionSets>sf_devops__DevOps_Center</permissionSets>
+    <permissionSets>sf_devops__DevOps_CenterManager</permissionSets>
+    <permissionSets>sf_devops__DevOps_CenterRelease</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

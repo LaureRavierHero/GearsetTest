@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>Test_position_app</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <description>Grants permission to view Aspen app</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Rate_percentage__c.Is_standard__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Aspen app</label>
+    <tabSettings>
+        <tab>standard-home</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>

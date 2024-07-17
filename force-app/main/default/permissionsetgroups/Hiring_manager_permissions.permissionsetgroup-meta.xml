@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Hiring manager permissions</label>
+    <mutingPermissionSets>Hiring_manager_permissions_muted</mutingPermissionSets>
+    <permissionSets>Basic_account_permission_set</permissionSets>
+    <permissionSets>Basic_apex_class_permissions</permissionSets>
+    <permissionSets>Basic_application_process_permissions</permissionSets>
+    <permissionSets>Basic_contacts_permissions</permissionSets>
+    <permissionSets>Basic_flow_permissions</permissionSets>
+    <permissionSets>Basic_placement_permissions</permissionSets>
+    <permissionSets>Basic_task_permissions</permissionSets>
+    <permissionSets>Basic_timesheet_permissions</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>
